@@ -82,9 +82,13 @@ fn parse_account_comp_descr(pickle_value: PickleValue) -> Result<JSONValue, AnyE
         let list_iter = value.try_list(format_err)?.into_iter();
 
 
-        let Ok(Tuple(mut value)) = list_iter.exactly_one() else { return Err(format_err()) };
+        let Ok(Tuple(mut value)) = list_iter.exactly_one() else {
+            return Err(format_err());
+        };
 
-        let [I64(id), Bytes(val)] = value.as_mut_slice() else { return Err(format_err()) };
+        let [I64(id), Bytes(val)] = value.as_mut_slice() else {
+            return Err(format_err());
+        };
 
         let account_comp_descr = AccountCompDescr {
             id:  *id,

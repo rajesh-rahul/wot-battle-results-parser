@@ -137,10 +137,14 @@ fn get_version_arg(attr: &Attribute) -> Option<VersionArg> {
 
             let mut arguments = arg.args.into_pairs();
             let range_begin = arguments.next().unwrap().into_value();
-            let Expr::Array(range_begin) = range_begin else { panic!("Unexpected argument to Version range")};
+            let Expr::Array(range_begin) = range_begin else {
+                panic!("Unexpected argument to Version range")
+            };
 
             let range_end = arguments.next().unwrap().into_value();
-            let Expr::Array(range_end) = range_end else { panic!("Unexpected argument to Version range")};
+            let Expr::Array(range_end) = range_end else {
+                panic!("Unexpected argument to Version range")
+            };
 
             Some(VersionArg::Range((range_begin, range_end)))
         }

@@ -83,7 +83,6 @@ pub fn imp_event_debug_macro(ast: &syn::DeriveInput) -> TokenStream {
         }
     };
 
-
     gen.into()
 }
 

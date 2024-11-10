@@ -1,7 +1,5 @@
-use std::{
-    fs::{self, DirEntry},
-    path::Path,
-};
+use std::fs::{self, DirEntry};
+use std::path::Path;
 
 use anyhow::{Context, Result};
 use miniz_oxide::inflate::DecompressError;
@@ -61,7 +59,6 @@ pub enum DataError {
     #[error("{0}")]
     Other(String),
 }
-
 
 /// `[0, 9, 15, 0]` => `"0_9_15_0"`
 pub fn version_as_string(version: [u16; 4]) -> String {

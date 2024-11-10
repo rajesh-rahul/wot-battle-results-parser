@@ -83,13 +83,10 @@ use std::collections::HashMap;
 
 pub use battle_results::Field;
 use error::Error;
-pub use parser::DatFileParser;
-pub use parser::Intercept;
-use serde::Deserialize;
-use serde::Serialize;
-pub use serde_json;
-pub use serde_pickle;
+pub use parser::{DatFileParser, Intercept};
+use serde::{Deserialize, Serialize};
 pub(crate) use serde_pickle::Value as PickleValue;
+pub use {serde_json, serde_pickle};
 
 
 /// Intercept Function that allows you to manipulate how a particular value is parsed.

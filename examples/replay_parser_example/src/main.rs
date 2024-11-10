@@ -2,7 +2,8 @@ use std::path::Path;
 
 use rayon::prelude::*;
 use tracing_bunyan_formatter::{BunyanFormattingLayer, JsonStorageLayer};
-use tracing_subscriber::{prelude::*, Registry};
+use tracing_subscriber::prelude::*;
+use tracing_subscriber::Registry;
 use walkdir::WalkDir;
 use wot_replay_parser::{BattleEvent, ReplayError, ReplayParser};
 

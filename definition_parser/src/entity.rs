@@ -1,12 +1,10 @@
 use std::rc::Rc;
 
-use roxmltree::Document;
-use roxmltree::Node as XMLNode;
+use roxmltree::{Document, Node as XMLNode};
 
 use super::types::WotType;
 use super::utils::select_child;
-use super::Result;
-use super::{Size, TypeAliasLookup};
+use super::{Result, Size, TypeAliasLookup};
 
 #[derive(Debug)]
 pub struct Entity {
