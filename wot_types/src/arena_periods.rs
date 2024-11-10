@@ -27,4 +27,6 @@ pub enum FinishReason {
     AllyKilled          = 8,
     OwnVehicleDestroyed = 9,
     DestroyedObjects    = 10,
+    ObjectivesCompleted = 11,
+    Afk                 = 101,
 }

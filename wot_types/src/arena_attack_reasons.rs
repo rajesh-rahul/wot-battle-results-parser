@@ -1,7 +1,6 @@
 use num_enum::TryFromPrimitive;
 use serde::Serialize;
 
-
 // Took from https://github.com/IzeBerg/wot-src/blob/EU/sources/res/scripts/common/constants.py
 // ATTACK_REASONS = (...
 #[repr(i32)]
