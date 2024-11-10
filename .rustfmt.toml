@@ -6,6 +6,7 @@ blank_lines_upper_bound = 2
 fn_params_layout = "Compressed"
 max_width = 110
 comment_width = 110
+imports_granularity = "Module"
 reorder_impl_items = true
 ignore = [
     "datfile_parser/src/lib/battle_results/battle_result_fields.rs"
