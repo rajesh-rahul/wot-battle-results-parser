@@ -28,6 +28,5 @@ jobs:
 
       - name: Test
         run: |
-          cd wot-battle-results-parser
           cargo check
           cargo test --all          
