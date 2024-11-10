@@ -1,0 +1,4 @@
+../replays_unpack
+lxml
+GitPython
+inflection
