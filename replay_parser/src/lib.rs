@@ -8,15 +8,10 @@ mod replay_errors;
 mod replay_parser;
 
 mod packet_parser;
-pub use packet_parser::events;
-pub use packet_parser::BattleEvent;
-pub use packet_parser::Context;
-pub use packet_parser::EventPrinter;
-pub use packet_parser::EventStream;
-pub use packet_parser::Packet;
-pub use packet_parser::PacketError;
-pub use packet_parser::PacketParser;
-pub use packet_parser::PacketStream;
+mod wot_data;
+pub use packet_parser::{
+    events, BattleEvent, Context, EventPrinter, EventStream, Packet, PacketError, PacketParser, PacketStream,
+};
 
 mod battle_context;
 pub use battle_context::BattleContext;
@@ -27,9 +22,8 @@ pub use replay_parser::*;
 pub use crate::utils::get_replay_time;
 
 pub mod wot_types {
-    pub use wot_types::ArenaBonusType;
-    pub use wot_types::WotValue;
+    pub use wot_types::{ArenaBonusType, WotValue};
 }
 
-mod entity_defs;
-pub use entity_defs::VERSIONS;
+pub use packet_parser::PacketName;
+pub use wot_data::VERSIONS;

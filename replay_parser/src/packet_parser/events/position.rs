@@ -29,7 +29,7 @@ impl PacketParser for Position {
 mod tests {
     use super::*;
     use crate::utils::replay_iterator;
-    pub use crate::{Packet, ReplayParser};
+    pub use crate::ReplayParser;
 
     #[test]
     fn parses_position() {

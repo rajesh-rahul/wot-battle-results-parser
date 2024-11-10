@@ -1,7 +1,5 @@
-use nom::{
-    bytes::complete::{take, take_till, take_while},
-    character::is_digit,
-};
+use nom::bytes::complete::{take, take_till, take_while};
+use nom::character::is_digit;
 
 use crate::packet_parser::prelude::*;
 

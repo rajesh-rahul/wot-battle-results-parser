@@ -1,11 +1,12 @@
 use std::collections::HashMap;
 
-use serde_json::Map;
-use serde_json::Value as JsonVal;
+use serde::Deserialize;
+use serde_json::{Map, Value as JsonVal};
+use serde_pickle::Value as PickleVal;
 use time::Duration;
 
-use crate::ReplayParser;
-use crate::{ReplayError, VERSIONS};
+use crate::wot_data::{EntityType, WOT_DATA_ALL_VERSIONS};
+use crate::{PacketError, ReplayError, ReplayParser, VERSIONS};
 
 /// `[0, 9, 15, 0]` => `"0_9_15_0"`
 pub fn version_as_string(version: [u16; 4]) -> String {
@@ -146,4 +147,81 @@ pub fn replay_iterator(path: &str) -> impl Iterator<Item = std::path::PathBuf> {
             None
         }
     })
+}
+
+pub(crate) fn find_entity_type(version: [u16; 4], entity_type_id: usize) -> Option<EntityType> {
+    let version_str = utils::version_as_string(version);
+
+    // Bigword uses non-zero index here, that is why we subtract 1
+    let actual_entity_type_id = if version > [0, 9, 13, 0] {
+        entity_type_id - 1
+    } else {
+        entity_type_id
+    };
+
+
+    WOT_DATA_ALL_VERSIONS
+        .get(&version_str)
+        .and_then(|wot_data| wot_data.entities.get(actual_entity_type_id).map(|ent| ent.ty))
+}
+
+pub(crate) fn parse_value<'de, T: Deserialize<'de>>(
+    index: usize, pickle_val: &[PickleVal],
+) -> Result<T, PacketError> {
+    let pickle_val = pickle_val
+        .get(index)
+        .ok_or_else(|| PacketError::PickleError {
+            err: format!("Cannot get index: {index}"),
+        })?
+        .clone();
+
+    serde_pickle::from_value(pickle_val).map_err(|err| PacketError::PickleError { err: err.to_string() })
+}
+
+pub(crate) fn parse_truthy_value(index: usize, pickle_val: &[PickleVal]) -> Result<i64, PacketError> {
+    let pickle_val = pickle_val.get(index).ok_or_else(|| PacketError::PickleError {
+        err: format!("Cannot get index: {index}"),
+    })?;
+
+    match pickle_val {
+        PickleVal::Bool(value) => Ok(*value as i64),
+        PickleVal::I64(value) => Ok(*value),
+        _ => Err(PacketError::PickleError {
+            err: "Pickle error: expected value to be boolean or integer".into(),
+        }),
+    }
+}
+
+pub fn decompress_vec(compressed: &[u8]) -> Result<Vec<u8>, PacketError> {
+    miniz_oxide::inflate::decompress_to_vec_zlib(compressed).map_err(|_| PacketError::Misc {
+        err: format!("Unable to decompress data"),
+    })
+}
+
+pub fn make_pickle_val(data: &[u8]) -> Result<PickleVal, PacketError> {
+    Ok(serde_pickle::value_from_slice(
+        data,
+        serde_pickle::DeOptions::new().replace_unresolved_globals(),
+    )?)
+}
+
+/// Note we have seperate methods like list (instead of using deser) because its faster
+pub(crate) trait PickleOps {
+    fn list(self) -> Result<Vec<PickleVal>, PacketError>;
+    fn deser<'de, T: Deserialize<'de>>(self) -> Result<T, PacketError>;
+}
+
+impl PickleOps for PickleVal {
+    fn list(self) -> Result<Vec<PickleVal>, PacketError> {
+        match self {
+            PickleVal::Tuple(vec) | PickleVal::List(vec) => Ok(vec),
+            _ => Err(PacketError::PickleError {
+                err: "cannot deserialize into tuple".to_string(),
+            }),
+        }
+    }
+
+    fn deser<'de, T: Deserialize<'de>>(self) -> Result<T, PacketError> {
+        serde_pickle::from_value(self).map_err(|err| PacketError::PickleError { err: err.to_string() })
+    }
 }

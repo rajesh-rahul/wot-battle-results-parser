@@ -10,5 +10,6 @@ pub fn fix_json_bugs(input: Cow<str>) -> String {
 /// replays from version `1.16.0.0` contains a field called `racingFinishTime` that has a syntax error.
 /// This fixes it by removing that field altogether
 fn remove_racing_time_field(input: Cow<str>) -> String {
+    // TODO: Only target 1.16 replays
     input.replace("\"racingFinishTime\": Infinity,", "")
 }

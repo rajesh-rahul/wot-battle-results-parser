@@ -15,10 +15,13 @@ Cargo.lock
 test.*
 all.hex
 result.hex
-scripts
 results
 results_bin
 results_json
 results_known
 /replays
 .env
+
+scripts/venv
+wot_xml
+**/__pycache__

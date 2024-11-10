@@ -1,4 +1,5 @@
 use crate::packet_parser::PacketError;
+use crate::PacketName;
 
 #[derive(thiserror::Error, Debug)]
 pub enum ReplayError {
@@ -41,11 +42,12 @@ pub enum ReplayError {
     #[error("Packet stream is corrupted")]
     PacketStreamError,
 
-    #[error("packet parse error: packet id: {packet_id} type: {packet_type} error: {error}")]
+    #[error("packet parse error: packet id={packet_id} type={packet_type} packet_name={packet_name} error={error}")]
     PacketParseError {
         packet_id:   i32,
         packet_type: u32,
         error:       PacketError,
+        packet_name: PacketName,
     },
 }
 

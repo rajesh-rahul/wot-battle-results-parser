@@ -39,8 +39,7 @@
 ///     - `0001` is the interesting part: the input for serde. In this particular case it is simply two values
 ///       of u8s
 mod serde_packet;
-pub use serde_packet::from_slice;
-pub use serde_packet::from_slice_unchecked;
+
 
 /// Contains code for all the different types of events. For each packet, we have an event. An event can be
 /// considered the human readable abstraction over a packet.
@@ -49,8 +48,9 @@ pub mod events;
 /// Contains `Packet`, and `PacketStream`. A light zero-copy wrapper for the binary data from
 /// `.wotreplay`. These are then used by the `events` module to parse into events that we can understand.
 mod packet;
-pub use packet::Packet;
-pub use packet::PacketStream;
+pub use packet::{Packet, PacketStream};
+mod input_reader;
+pub(crate) use input_reader::InputStream;
 
 mod error;
 pub use error::PacketError;
@@ -58,11 +58,10 @@ pub use error::PacketError;
 mod context;
 pub use context::Context;
 
+mod update_arena;
+
 mod event;
-pub use event::BattleEvent;
-pub use event::EventPrinter;
-pub use event::EventStream;
-pub use event::PacketParser;
+pub use event::{BattleEvent, EventPrinter, EventStream, PacketName, PacketParser};
 
 pub mod types;
 
@@ -94,9 +93,7 @@ pub(crate) mod prelude {
     pub(crate) use serde::{Deserialize, Serialize};
 
     pub(crate) use super::event::{BattleEvent, EventPrinter, PacketParser, TrackVersion, VersionInfo};
-    pub(crate) use super::serde_packet::{from_slice, from_slice_prim, from_slice_unchecked};
+    pub(crate) use super::serde_packet::{from_slice, from_slice_unchecked};
     pub(crate) use super::types::Vector3;
-    pub(crate) use super::Context;
-    pub(crate) use super::VariantDeserializer;
-    pub(crate) use super::{Packet, PacketError};
+    pub(crate) use super::{Context, Packet, PacketError};
 }

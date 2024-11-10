@@ -1,22 +1,29 @@
 use std::collections::HashMap;
 
-use crate::{entity_defs::EntityType, utils::validate_version, PacketError};
+use crate::utils::validate_version;
+use crate::wot_data::{EntityType, WotDataForVersion, WOT_DATA_ALL_VERSIONS};
+use crate::PacketError;
 
 
-#[derive(Default, Debug)]
+#[derive(Debug)]
 pub struct Context {
-    entities: HashMap<i32, EntityType>,
-    players:  HashMap<i32, String>,
-    version:  [u16; 4],
+    pub(crate) entities:     HashMap<i32, EntityType>,
+    pub(crate) players:      HashMap<i32, String>,
+    pub(crate) version:      [u16; 4],
+    pub(crate) version_data: &'static WotDataForVersion,
 }
 
 impl Context {
     pub fn new(version: [u16; 4], players: HashMap<i32, String>) -> Self {
-        let validated_version = validate_version(version);
+        // let validated_version = validate_version(version);
+
         Context {
             entities: HashMap::new(),
             players,
-            version: validated_version,
+            version,
+            version_data: WOT_DATA_ALL_VERSIONS
+                .get(&utils::version_as_string(validate_version(version)))
+                .expect("DEV ERROR: Validated version is invalid"),
         }
     }
 

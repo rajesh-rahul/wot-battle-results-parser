@@ -1,20 +1,16 @@
 use std::path::Path;
 
-use blowfish::cipher::KeyInit;
-use blowfish::{cipher::BlockDecrypt, Blowfish};
+use blowfish::cipher::{BlockDecrypt, KeyInit};
+use blowfish::Blowfish;
 use byteorder::{ReadBytesExt, BE, LE};
 use miniz_oxide::inflate::decompress_to_vec_zlib;
-use nom::{
-    bytes::complete::take,
-    multi::{length_count, length_data},
-    number::complete::le_u32,
-};
+use nom::bytes::complete::take;
+use nom::multi::{length_count, length_data};
+use nom::number::complete::le_u32;
 use serde_json::Value as JsonVal;
 use wot_types::ArenaBonusType;
 
-use crate::utils::as_i64;
-use crate::{replay_errors, Context};
-use crate::{BattleContext, BattleEvent, EventStream, PacketStream, ReplayError};
+use crate::{replay_errors, BattleContext, BattleEvent, Context, EventStream, PacketStream, ReplayError};
 /// Parse a wotreplay from file. Only deals with that wotreplay. If you need to parse multiple replays, create
 /// multiple instances of `ReplayParser`.
 /// ## Example 1 - Print Replay Events
@@ -234,19 +230,23 @@ impl ReplayParser {
     ///
     /// For incomplete replays, Arena Unique ID is present in one of the packets and is therefore
     /// more expensive to parse
-    pub fn parse_arena_unique_id(&self) -> Result<i64, ReplayError> {
+    pub fn parse_arena_unique_id(&self) -> Result<u64, ReplayError> {
         if let Some(replay_end) = self.replay_json_end() {
-            as_i64("/0/arenaUniqueID", replay_end)
+            replay_end
+                .pointer("/0/arenaUniqueID")
+                .and_then(|it| it.as_u64())
+                .map_or_else(|| Err(ReplayError::MissingArenaUniqueId), |it| Ok(it))
         } else {
-            let stream = self.event_stream()?;
-
-            for event in stream.flatten() {
-                if let BattleEvent::AvatarCreate(avatar_create) = event {
-                    return Ok(avatar_create.arena_unique_id);
-                }
-            }
-
-            Err(ReplayError::MissingArenaUniqueId)
+            self.event_stream()?
+                .flatten()
+                .find_map(|it| {
+                    if let BattleEvent::CreateAvatar(avatar_create) = it {
+                        avatar_create.arena_unique_id()
+                    } else {
+                        None
+                    }
+                })
+                .map_or_else(|| Err(ReplayError::MissingArenaUniqueId), |it| Ok(it))
         }
     }
 

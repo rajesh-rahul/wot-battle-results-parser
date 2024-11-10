@@ -1,7 +1,6 @@
 use std::path::Path;
 
-use criterion::BenchmarkId;
-use criterion::{criterion_group, criterion_main, Criterion};
+use criterion::{criterion_group, criterion_main, BenchmarkId, Criterion};
 
 pub fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("Replay: Parse JSON Only", |b| b.iter(parse_json_only));

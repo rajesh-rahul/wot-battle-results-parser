@@ -1,9 +1,11 @@
 use std::collections::HashMap;
 
+use entity_method::parse_entity_method;
 use serde::Serialize;
 
+use crate::events::*;
 use crate::packet_parser::{Context, Packet, PacketError};
-use crate::{events::*, ReplayError};
+use crate::ReplayError;
 
 /// This enum aims to represent all possible events that can occur in a battle. Variants of this enum
 /// usually maps to a specific type of packet. For example, `BattleEvent::Position` maps to packets of
@@ -13,48 +15,78 @@ use crate::{events::*, ReplayError};
 /// - `0x18` (if the replay is from or later patch 0.9.14)
 ///
 /// Some of these events have sub-events. For example, `BattleEvent::EntityMethod` has many sub events
-/// (represented as enum variants) such as `Avatar`, `Vehicle` etc. Furthermore, these sub-events also have their
-/// own sub-events. See their documentation for details
+/// (represented as enum variants) such as `Avatar`, `Vehicle` etc. Furthermore, these sub-events also have
+/// their own sub-events. See their documentation for details
 #[derive(Debug, Clone, Serialize)]
 #[non_exhaustive]
 // TODO: Box Large structure
+#[serde(tag = "name", content = "data")]
 pub enum BattleEvent {
     Unimplemented { packet_type: u32, size: usize },
     GameVersion(GameVersion),
-    AvatarCreate(AvatarCreate),
-    EntityMethod(EntityMethodEvent),
+    CreateAvatar(CreateAvatar),
+    // EntityMethod(EntityMethodEvent),
     Position(Position),
     Chat(Chat),
-    EntityCreate(EntityCreate),
-    EntityProperty(EntityPropertyEvent),
+    CreateEntity(CreateEntity),
+    // EntityProperty(EntityPropertyEvent),
     CryptoKey(CryptoKey),
+    AvatarReady(AvatarReady),
+    UnimplementedEntityMethod(EntMethodGeneralInfo),
+    VehicleAdded(VehicleAdded),
+    UnimplementedArenaUpdate(String),
+    BasePoints(BasePoints),
+    VehicleList(VehicleList),
+    BaseCaptured(BaseCaptured),
+    FogOfWar(FogOfWar),
+    VehicleDescr(VehicleDescr),
+    VehicleStatistics(VehicleStatistics),
+    Statistics(Statistics),
+    VehicleKilled(VehicleKilled),
+    VehicleUpdated(VehicleUpdated),
+    Period(Period),
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, PartialOrd, Ord, Eq, strum::Display)]
+pub enum PacketName {
+    GameVersion,
+    CreateAvatar,
+    CreateEntity,
+    Position,
+    Chat,
+    CryptoKey,
+    Unimplemented,
+    EntityMethod,
 }
 
 impl BattleEvent {
     /// Parse packet to a Battle event. Optional context is provided to aid in parsing some particular
     /// packets.
     pub fn parse(packet: &Packet, context: &mut Context) -> Result<BattleEvent, ReplayError> {
-        let v = context.get_version();
+        let packet_type = packet.packet_type();
 
-        let event_result = match packet.packet_type() {
-            0x00 => AvatarCreate::parse_mut(packet, context),
-            0x05 => EntityCreate::parse_mut(packet, context),
-            0x07 => EntityPropertyEvent::parse(packet, context),
-            0x08 => EntityMethodEvent::parse(packet, context),
-            0x0A => Position::parse(packet, context),
-            0x14 if v <= [0, 9, 13, 0] => GameVersion::parse(packet, context),
-            0x18 if v > [0, 9, 13, 0] => GameVersion::parse(packet, context),
-            0x23 => Chat::parse(packet, context),
-            0x3D => CryptoKey::parse(packet, context),
-            packet_type @ _ => Ok(BattleEvent::Unimplemented {
-                packet_type,
-                size: packet.payload().len(),
-            }),
+        let packet_name = context.version_data.packet_name(packet.packet_type());
+
+        let event_result = match packet_name {
+            PacketName::GameVersion => GameVersion::parse(packet, context),
+            PacketName::CreateAvatar => CreateAvatar::parse_mut(packet, context),
+            PacketName::CreateEntity => CreateEntity::parse_mut(packet, context),
+            PacketName::Position => Position::parse(packet, context),
+            PacketName::Chat => Chat::parse(packet, context),
+            PacketName::CryptoKey => CryptoKey::parse(packet, context),
+            PacketName::EntityMethod => parse_entity_method(packet, context),
+            PacketName::Unimplemented => {
+                return Ok(BattleEvent::Unimplemented {
+                    packet_type,
+                    size: packet.payload().len(),
+                })
+            }
         };
 
         event_result.map_err(|error| ReplayError::PacketParseError {
             packet_id: packet.id(),
             packet_type: packet.packet_type(),
+            packet_name,
             error,
         })
     }
@@ -63,12 +95,39 @@ impl BattleEvent {
         matches!(self, BattleEvent::Unimplemented { .. })
     }
 
-    pub fn entity_property(self) -> Option<EntityProperty> {
+    pub fn corresponding_pkt_name(&self) -> PacketName {
+        use BattleEvent::*;
         match self {
-            Self::EntityProperty(EntityPropertyEvent { property, .. }) => Some(property),
-            _ => None,
+            Unimplemented { .. } => PacketName::Unimplemented,
+            GameVersion(_) => PacketName::GameVersion,
+            CreateAvatar(_) => PacketName::CreateAvatar,
+            Position(_) => PacketName::Position,
+            Chat(_) => PacketName::Chat,
+            CreateEntity(_) => PacketName::CreateEntity,
+            CryptoKey(_) => PacketName::CryptoKey,
+            UnimplementedEntityMethod(_)
+            | AvatarReady(_)
+            | VehicleDescr(_)
+            | VehicleAdded(_)
+            | UnimplementedArenaUpdate(_)
+            | BasePoints(_)
+            | VehicleList(_)
+            | BaseCaptured(_)
+            | FogOfWar(_)
+            | VehicleStatistics(_)
+            | Statistics(_)
+            | Period(_)
+            | VehicleKilled(_)
+            | VehicleUpdated(_) => PacketName::EntityMethod,
         }
     }
+
+    // pub fn entity_property(self) -> Option<EntityProperty> {
+    //     match self {
+    //         Self::EntityProperty(EntityPropertyEvent { property, .. }) => Some(property),
+    //         _ => None,
+    //     }
+    // }
 }
 
 /// This trait is implemented by all events so that they can parse a packet to a BattleEvent
@@ -103,27 +162,27 @@ pub trait TrackVersion {
     fn version() -> VersionInfo;
 }
 
-impl EventPrinter for BattleEvent {
-    fn to_debug_string(&self, context: &Context) -> String
-    where
-        Self: std::fmt::Debug,
-    {
-        use BattleEvent::*;
-        match self {
-            Unimplemented { packet_type, size } => {
-                format!("Unimplemented packet: {packet_type}, Size: {size}")
-            }
-            AvatarCreate(x) => x.to_debug_string(context),
-            GameVersion(x) => x.to_debug_string(context),
-            EntityMethod(x) => x.to_debug_string(context),
-            EntityProperty(x) => x.to_debug_string(context),
-            Position(x) => x.to_debug_string(context),
-            Chat(x) => x.to_debug_string(context),
-            EntityCreate(x) => x.to_debug_string(context),
-            CryptoKey(x) => x.to_debug_string(context),
-        }
-    }
-}
+// impl EventPrinter for BattleEvent {
+//     fn to_debug_string(&self, context: &Context) -> String
+//     where
+//         Self: std::fmt::Debug,
+//     {
+//         use BattleEvent::*;
+//         match self {
+//             Unimplemented { packet_type, size } => {
+//                 format!("Unimplemented packet: {packet_type}, Size: {size}")
+//             }
+//             CreateAvatar(x) => x.to_debug_string(context),
+//             GameVersion(x) => x.to_debug_string(context),
+//             EntMethodGeneralInfo(x) => x.to_debug_string(context),
+//             // EntityProperty(x) => x.to_debug_string(context),
+//             Position(x) => x.to_debug_string(context),
+//             Chat(x) => x.to_debug_string(context),
+//             CreateEntity(x) => x.to_debug_string(context),
+//             CryptoKey(x) => x.to_debug_string(context),
+//         }
+//     }
+// }
 
 #[derive(Debug, Clone)]
 pub enum VersionList {

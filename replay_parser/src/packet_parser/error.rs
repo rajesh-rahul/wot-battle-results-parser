@@ -1,8 +1,10 @@
-use std::{num::ParseIntError, str::Utf8Error, string::FromUtf8Error};
+use std::num::ParseIntError;
+use std::str::Utf8Error;
+use std::string::FromUtf8Error;
 
 use snafu::prelude::*;
 
-use crate::entity_defs::EntityType;
+use crate::wot_data::EntityType;
 #[derive(Debug, Snafu, Clone)]
 pub enum PacketError {
     #[snafu(display("{err}: incomplete input"))]
@@ -57,6 +59,12 @@ pub enum PacketError {
 
     #[snafu(display("size marker says {expected} bytes but {actual} bytes remaining"))]
     IncorrectSizeMarker { expected: usize, actual: usize },
+
+    #[snafu(display("entity_type={entity_type}"))]
+    UnsupportedEntity { entity_type: EntityType },
+
+    #[snafu(display("{err}"))]
+    Misc { err: String },
 }
 
 impl PacketError {
