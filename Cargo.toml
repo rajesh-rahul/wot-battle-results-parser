@@ -1,5 +1,7 @@
 [workspace]
 
+resolver = "2"
+
 members = [
     "datfile_parser",
     "replay_parser",
@@ -10,6 +12,4 @@ members = [
     "examples/replay_parser_example",
     "examples/replay_parser_simple",
     "examples/replay_version_sorter",
-    "examples/datfile_parser_simple",
-    "examples/datfile_parser_advanced",
 ]
