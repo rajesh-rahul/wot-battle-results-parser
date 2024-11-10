@@ -29,7 +29,7 @@ pub fn main() {
         let parser = ReplayParser::parse_file(&replay).unwrap();
 
         let max_position_packets = 10;
-        let position_packet_count = 0;
+        let mut position_packet_count = 0;
         let mut counter = 0;
 
         let output_path = |pkt_name| {
@@ -57,7 +57,7 @@ pub fn main() {
                     let packet_name = event.corresponding_pkt_name();
 
                     match packet_name {
-                        PacketName::EntityMethod => {
+                        PacketName::CreateAvatar | PacketName::CryptoKey | PacketName::EntityMethod | PacketName::GameVersion => {
                             let output_file_path = output_path(packet_name.to_string());
 
                             let data = file_data.entry(output_file_path).or_insert(String::new());
@@ -65,17 +65,17 @@ pub fn main() {
                             data.push_str(&serde_json::to_string(&event).unwrap());
                             data.push_str("\n");
                         }
-                        // PacketName::Position if position_packet_count < 10 && counter % 5 == 0 => {
-                        //     let output_file_path = Path::new(TEST_OUTPUT_DIR)
-                        //     .join(pkt_name.to_string())
-                        //     .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()));
+                        PacketName::Position if position_packet_count < 10 && counter % 5 == 0 => {
+                            let output_file_path = Path::new(TEST_OUTPUT_DIR)
+                            .join(packet_name.to_string())
+                            .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()));
 
-                        //     let data = file_data.entry(output_file_path).or_insert(String::new());
+                            let data = file_data.entry(output_file_path).or_insert(String::new());
 
-                        //     data.push_str(&serde_json::to_string(&event).unwrap());
-                        //     data.push_str("\n");
-                        //     position_packet_count += 1;
-                        // }
+                            data.push_str(&serde_json::to_string(&event).unwrap());
+                            data.push_str("\n");
+                            position_packet_count += 1;
+                        }
                         _ => {}
                     }
                 }

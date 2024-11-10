@@ -19,11 +19,7 @@ use crate::{replay_errors, BattleContext, BattleEvent, Context, EventStream, Pac
 /// let replay = ReplayParser::parse_file("input_files/example.wotreplay").unwrap();
 ///
 /// for event in replay.event_stream().unwrap() {
-///     let event = event.unwrap();
-///
-///     if !event.is_unknown() { // skip printing events that arent support yet
-///         println!("{:?}", event);
-///     }
+///     println!("{:?}", event);
 /// }
 /// ```
 pub struct ReplayParser {

@@ -1,1 +1,1 @@
-{"CreateAvatar":{"entity_id":7170481,"data":{"arenaBonusType":1,"arenaExtraData":{"battleLevel":10},"arenaGuiType":1,"arenaTypeID":4,"arenaUniqueID":23375786158744696,"clientCtx":"","denunciationsLeft":10,"name":"Canteen","tkillIsSuspected":0,"weatherPresetID":0},"unknown":[]}}
+{"name":"CreateAvatar","data":{"entity_id":7170481,"data":{"arenaBonusType":1,"arenaExtraData":{"battleLevel":10},"arenaGuiType":1,"arenaTypeID":4,"arenaUniqueID":23375786158744696,"clientCtx":"","denunciationsLeft":10,"name":"Canteen","tkillIsSuspected":0,"weatherPresetID":0},"unknown":[]}}

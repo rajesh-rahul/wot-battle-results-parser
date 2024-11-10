@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 use pretty_assertions::assert_eq;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
-use wot_replay_parser::{PacketName, ReplayParser};
+use wot_replay_parser::{PacketName, ReplayError, ReplayParser};
 
 const TEST_INPUT_DIR: &'static str = "./tests/parser_tests/test_input";
 const TEST_OUTPUT_DIR: &'static str = "./tests/parser_tests/test_output";
@@ -33,27 +33,46 @@ pub fn get_file_data_for_packet_name(
 
             let mut overall_counter = 0;
             let mut accepted_packet_counter = 0;
+
+            let output_path = |pkt_name| {
+                Path::new(TEST_OUTPUT_DIR)
+                    .join(pkt_name)
+                    .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()))
+            };
+
             for event in parser.event_stream().unwrap() {
-                let event = event.unwrap();
-                let pkt_name = event.corresponding_pkt_name();
+                match event {
+                    Err(ReplayError::PacketParseError { packet_name, error, .. }) if packet_name == expected_pkt_name => {
+                        let output_file_path = output_path(packet_name.to_string());
 
-                if count.is_some_and(|c| accepted_packet_counter >= c) {
-                    break;
+                        let data = file_data.entry(output_file_path).or_insert(String::new());
+        
+                        data.push_str(&error.to_string());
+                        data.push_str("\n");
+                    }
+                    Ok(event) => {
+                        let packet_name = event.corresponding_pkt_name();
+
+                        if count.is_some_and(|c| accepted_packet_counter >= c) {
+                            break;
+                        }
+        
+                        if packet_name == expected_pkt_name && (overall_counter % 5 == 0 || count.is_none()) {
+                            let output_file_path = output_path(packet_name.to_string());
+        
+                            let data = file_data.entry(output_file_path).or_insert(String::new());
+        
+                            data.push_str(&serde_json::to_string(&event).unwrap());
+                            data.push_str("\n");
+                            accepted_packet_counter += 1;
+                        }
+        
+                    }
+                    _ => {}
                 }
-
-                if pkt_name == expected_pkt_name && (overall_counter % 5 == 0 || count.is_none()) {
-                    let output_file_path = Path::new(TEST_OUTPUT_DIR)
-                        .join(pkt_name.to_string())
-                        .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()));
-
-                    let data = file_data.entry(output_file_path).or_insert(String::new());
-
-                    data.push_str(&serde_json::to_string(&event).unwrap());
-                    data.push_str("\n");
-                    accepted_packet_counter += 1;
-                }
-
                 overall_counter += 1;
+
+
             }
 
             file_data
@@ -94,5 +113,12 @@ fn test_create_avatar_event() {
 // NOTE: depends on test_output_writer.rs
 fn test_position_event() {
     let data = get_file_data_for_packet_name(PacketName::Position, Some(10));
+    check_output(data);
+}
+
+
+#[test]
+fn test_crypto_key_event() {
+    let data = get_file_data_for_packet_name(PacketName::CryptoKey, None);
     check_output(data);
 }
