@@ -14,32 +14,7 @@ impl UpdatePositions {
     ) -> Result<EventType, PacketError> {
         let mut reader = InputStream::from(data);
 
-        let res = if context.version < [1, 9, 0, 0] {
-            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
-            let positions = reader.array(InputStream::le_i16)?;
-
-            UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 9, 0, 0] {
-            let indices = reader.array(|it| InputStream::le_u16(it))?;
-            let positions = reader.array(InputStream::le_i16)?;
-
-            UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 10, 0, 0] {
-            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
-            let positions = reader.array(InputStream::le_i16)?;
-
-            UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 10, 1, 0] {
-            let indices = reader.array(|it| InputStream::le_u16(it))?;
-            let positions = reader.array(InputStream::le_i16)?;
-
-            UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 11, 0, 0] {
-            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
-            let positions = reader.array(InputStream::le_i16)?;
-
-            UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 14, 1, 0] {
+        let res = if context.version >= [1, 26, 1, 0] {
             let indices = reader.array(|it| InputStream::le_u16(it))?;
             let positions = reader.array(InputStream::le_i16)?;
 
@@ -49,13 +24,36 @@ impl UpdatePositions {
             let positions = reader.array(InputStream::le_i16)?;
 
             UpdatePositions(make_positions_map(indices, positions, context))
-        } else if context.version >= [1, 26, 1, 0] {
+        } else if context.version >= [1, 14, 1, 0] {
+            let indices = reader.array(|it| InputStream::le_u16(it))?;
+            let positions = reader.array(InputStream::le_i16)?;
+
+            UpdatePositions(make_positions_map(indices, positions, context))
+        } else if context.version >= [1, 11, 0, 0] {
+            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
+            let positions = reader.array(InputStream::le_i16)?;
+
+            UpdatePositions(make_positions_map(indices, positions, context))
+        } else if context.version >= [1, 10, 1, 0] {
+            let indices = reader.array(|it| InputStream::le_u16(it))?;
+            let positions = reader.array(InputStream::le_i16)?;
+
+            UpdatePositions(make_positions_map(indices, positions, context))
+        } else if context.version >= [1, 10, 0, 0] {
+            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
+            let positions = reader.array(InputStream::le_i16)?;
+
+            UpdatePositions(make_positions_map(indices, positions, context))
+        } else if context.version >= [1, 9, 0, 0] {
             let indices = reader.array(|it| InputStream::le_u16(it))?;
             let positions = reader.array(InputStream::le_i16)?;
 
             UpdatePositions(make_positions_map(indices, positions, context))
         } else {
-            unreachable!()
+            let indices = reader.array(|it| InputStream::le_u8(it).map(u16::from))?;
+            let positions = reader.array(InputStream::le_i16)?;
+
+            UpdatePositions(make_positions_map(indices, positions, context))
         };
 
         Ok(EventType::UpdatePositions(res))
