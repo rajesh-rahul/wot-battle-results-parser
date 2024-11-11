@@ -10,7 +10,7 @@ mod replay_parser;
 mod packet_parser;
 mod wot_data;
 pub use packet_parser::{
-    events, BattleEvent, Context, EventPrinter, EventStream, Packet, PacketError, PacketParser, PacketStream,
+    events, Context, EventPrinter, EventStream, EventType, Packet, PacketError, PacketParser, PacketStream,
 };
 
 mod battle_context;

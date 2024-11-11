@@ -21,7 +21,7 @@ use crate::ReplayError;
 #[non_exhaustive]
 // TODO: Box Large structure
 #[serde(tag = "name", content = "data")]
-pub enum BattleEvent {
+pub enum EventType {
     Unimplemented { packet_type: u32, size: usize },
     GameVersion(GameVersion),
     CreateAvatar(CreateAvatar),
@@ -45,8 +45,23 @@ pub enum BattleEvent {
     VehicleKilled(VehicleKilled),
     VehicleUpdated(VehicleUpdated),
     Period(Period),
+    ViewPoints(ViewPoints),
+    TeamKiller(TeamKiller),
+    UpdateVehicleAmmo(UpdateVehicleAmmo),
+    UpdatePositions(UpdatePositions),
 }
 
+#[derive(Debug, Clone, Serialize)]
+pub struct BattleEvent {
+    pub time:  f32,
+    pub event: EventType,
+}
+
+impl BattleEvent {
+    pub fn corresponding_pkt_name(&self) -> PacketName {
+        self.event.corresponding_pkt_name()
+    }
+}
 #[derive(Debug, Clone, Copy, PartialEq, PartialOrd, Ord, Eq, strum::Display)]
 pub enum PacketName {
     GameVersion,
@@ -59,10 +74,10 @@ pub enum PacketName {
     EntityMethod,
 }
 
-impl BattleEvent {
+impl EventType {
     /// Parse packet to a Battle event. Optional context is provided to aid in parsing some particular
     /// packets.
-    pub fn parse(packet: &Packet, context: &mut Context) -> Result<BattleEvent, ReplayError> {
+    pub fn parse(packet: &Packet, context: &mut Context) -> Result<EventType, ReplayError> {
         let packet_type = packet.packet_type();
 
         let packet_name = context.version_data.packet_name(packet.packet_type());
@@ -76,7 +91,7 @@ impl BattleEvent {
             PacketName::CryptoKey => CryptoKey::parse(packet, context),
             PacketName::EntityMethod => parse_entity_method(packet, context),
             PacketName::Unimplemented => {
-                return Ok(BattleEvent::Unimplemented {
+                return Ok(EventType::Unimplemented {
                     packet_type,
                     size: packet.payload().len(),
                 })
@@ -92,11 +107,11 @@ impl BattleEvent {
     }
 
     pub fn is_unknown(&self) -> bool {
-        matches!(self, BattleEvent::Unimplemented { .. })
+        matches!(self, EventType::Unimplemented { .. })
     }
 
     pub fn corresponding_pkt_name(&self) -> PacketName {
-        use BattleEvent::*;
+        use EventType::*;
         match self {
             Unimplemented { .. } => PacketName::Unimplemented,
             GameVersion(_) => PacketName::GameVersion,
@@ -118,7 +133,11 @@ impl BattleEvent {
             | Statistics(_)
             | Period(_)
             | VehicleKilled(_)
-            | VehicleUpdated(_) => PacketName::EntityMethod,
+            | VehicleUpdated(_)
+            | ViewPoints(_)
+            | TeamKiller(_)
+            | UpdateVehicleAmmo(_)
+            | UpdatePositions(_) => PacketName::EntityMethod,
         }
     }
 
@@ -132,11 +151,11 @@ impl BattleEvent {
 
 /// This trait is implemented by all events so that they can parse a packet to a BattleEvent
 pub trait PacketParser {
-    fn parse(_: &Packet, _: &Context) -> Result<BattleEvent, PacketError> {
+    fn parse(_: &Packet, _: &Context) -> Result<EventType, PacketError> {
         unimplemented!()
     }
 
-    fn parse_mut(_: &Packet, _: &mut Context) -> Result<BattleEvent, PacketError> {
+    fn parse_mut(_: &Packet, _: &mut Context) -> Result<EventType, PacketError> {
         unimplemented!()
     }
 }
@@ -220,9 +239,11 @@ pub struct EventStream<'pkt> {
 }
 
 impl<'pkt> EventStream<'pkt> {
-    pub fn new(packet_stream: PacketStream<'pkt>, version: [u16; 4]) -> Self {
+    pub fn new(
+        packet_stream: PacketStream<'pkt>, version: [u16; 4], players_map: HashMap<i32, String>,
+    ) -> Self {
         let version_validated = validate_version(version);
-        let context = Context::new(version_validated, HashMap::new());
+        let context = Context::new(version_validated, players_map);
 
         EventStream {
             packet_stream,
@@ -239,7 +260,9 @@ impl<'pkt> Iterator for EventStream<'pkt> {
         match packet {
             Ok(packet) => {
                 let packet_id = packet.id();
-                let event = BattleEvent::parse(&packet, &mut self.context);
+                let time = packet.time();
+                let event =
+                    EventType::parse(&packet, &mut self.context).map(|event| BattleEvent { time, event });
 
                 log_if_error(packet_id, &event);
                 Some(event)

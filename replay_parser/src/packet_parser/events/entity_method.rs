@@ -1,3 +1,4 @@
+use events::{UpdatePositions, UpdateVehicleAmmo};
 use macros::EventPrinter;
 // pub use avatar_methods::update_arena::*;
 use packet_parser::update_arena::parse_update_arena_method;
@@ -22,7 +23,7 @@ pub struct EntMethodGeneralInfo {
     pub method_name: String,
 }
 
-pub(crate) fn parse_entity_method(packet: &Packet, context: &Context) -> Result<BattleEvent, PacketError> {
+pub(crate) fn parse_entity_method(packet: &Packet, context: &Context) -> Result<EventType, PacketError> {
     let mut reader = InputStream::from(packet.payload());
 
     let entity_id = reader.le_i32()?;
@@ -51,18 +52,20 @@ pub(crate) fn parse_entity_method(packet: &Packet, context: &Context) -> Result<
 
 fn parse_avatar_methods(
     gen_info: EntMethodGeneralInfo, method_name: AvatarMethod, context: &Context, payload: &[u8],
-) -> Result<BattleEvent, PacketError> {
+) -> Result<EventType, PacketError> {
     match method_name {
         AvatarMethod::UpdateArena => parse_update_arena_method(gen_info, payload, context),
-        _ => Ok(BattleEvent::UnimplementedEntityMethod(gen_info)),
+        AvatarMethod::UpdateVehicleAmmo => UpdateVehicleAmmo::parse_from(gen_info, payload, context),
+        AvatarMethod::UpdatePositions => UpdatePositions::parse_from(gen_info, payload, context),
+        _ => Ok(EventType::UnimplementedEntityMethod(gen_info)),
     }
 }
 
 fn parse_vehicle_methods(
     gen_info: EntMethodGeneralInfo, method_name: VehicleMethod, context: &Context, payload: &[u8],
-) -> Result<BattleEvent, PacketError> {
+) -> Result<EventType, PacketError> {
     match method_name {
-        _ => Ok(BattleEvent::UnimplementedEntityMethod(gen_info)),
+        _ => Ok(EventType::UnimplementedEntityMethod(gen_info)),
     }
 }
 

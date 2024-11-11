@@ -57,7 +57,11 @@ pub fn main() {
                     let packet_name = event.corresponding_pkt_name();
 
                     match packet_name {
-                        PacketName::CreateAvatar | PacketName::CryptoKey | PacketName::EntityMethod | PacketName::GameVersion => {
+                        PacketName::CreateAvatar
+                        | PacketName::CryptoKey
+                        | PacketName::EntityMethod
+                        | PacketName::GameVersion
+                        | PacketName::CreateEntity => {
                             let output_file_path = output_path(packet_name.to_string());
 
                             let data = file_data.entry(output_file_path).or_insert(String::new());
@@ -67,8 +71,8 @@ pub fn main() {
                         }
                         PacketName::Position if position_packet_count < 10 && counter % 5 == 0 => {
                             let output_file_path = Path::new(TEST_OUTPUT_DIR)
-                            .join(packet_name.to_string())
-                            .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()));
+                                .join(packet_name.to_string())
+                                .join(format!("{}.jsonl", replay.file_stem().unwrap().to_string_lossy()));
 
                             let data = file_data.entry(output_file_path).or_insert(String::new());
 

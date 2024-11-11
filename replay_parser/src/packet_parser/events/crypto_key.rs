@@ -9,7 +9,7 @@ pub struct CryptoKey {
 }
 
 impl PacketParser for CryptoKey {
-    fn parse(packet: &Packet, _: &Context) -> Result<BattleEvent, PacketError> {
+    fn parse(packet: &Packet, _: &Context) -> Result<EventType, PacketError> {
         let data = packet.payload();
 
         let (remaining, size) = le_u32(data)?;
@@ -20,6 +20,6 @@ impl PacketParser for CryptoKey {
 
         let key = String::from_utf8(remaining.to_vec())?;
 
-        Ok(BattleEvent::CryptoKey(CryptoKey { key }))
+        Ok(EventType::CryptoKey(CryptoKey { key }))
     }
 }

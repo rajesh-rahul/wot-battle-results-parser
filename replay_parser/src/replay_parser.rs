@@ -10,7 +10,8 @@ use nom::number::complete::le_u32;
 use serde_json::Value as JsonVal;
 use wot_types::ArenaBonusType;
 
-use crate::{replay_errors, BattleContext, BattleEvent, Context, EventStream, PacketStream, ReplayError};
+use crate::packet_parser::BattleEvent;
+use crate::{replay_errors, BattleContext, Context, EventStream, EventType, PacketStream, ReplayError};
 /// Parse a wotreplay from file. Only deals with that wotreplay. If you need to parse multiple replays, create
 /// multiple instances of `ReplayParser`.
 /// ## Example 1 - Print Replay Events
@@ -160,7 +161,11 @@ impl ReplayParser {
             .parse_replay_version()
             .ok_or_else(|| ReplayError::ReplayJsonFormatError("failed to parse replay version".into()))?;
 
-        Ok(EventStream::new(packet_stream, version))
+        Ok(EventStream::new(
+            packet_stream,
+            version,
+            crate::utils::get_player_list(self)?,
+        ))
     }
 
     pub fn battle_context(&self) -> BattleContext {
@@ -236,7 +241,11 @@ impl ReplayParser {
             self.event_stream()?
                 .flatten()
                 .find_map(|it| {
-                    if let BattleEvent::CreateAvatar(avatar_create) = it {
+                    if let BattleEvent {
+                        event: EventType::CreateAvatar(avatar_create),
+                        ..
+                    } = it
+                    {
                         avatar_create.arena_unique_id()
                     } else {
                         None

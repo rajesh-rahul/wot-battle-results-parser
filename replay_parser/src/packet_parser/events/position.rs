@@ -18,9 +18,9 @@ pub struct Position {
 }
 
 impl PacketParser for Position {
-    fn parse(packet: &Packet, context: &Context) -> Result<BattleEvent, PacketError> {
+    fn parse(packet: &Packet, context: &Context) -> Result<EventType, PacketError> {
         let position = from_slice(packet.payload(), context.get_version())?;
 
-        Ok(BattleEvent::Position(position))
+        Ok(EventType::Position(position))
     }
 }

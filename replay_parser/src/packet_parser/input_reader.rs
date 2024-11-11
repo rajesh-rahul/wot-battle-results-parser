@@ -1,6 +1,7 @@
 use nom::bytes::complete::take;
 use nom::number::complete::*;
 
+use super::types::Vector3;
 use super::PacketError;
 #[derive(Clone, Copy)]
 pub(crate) struct InputStream<'a>(&'a [u8]);
@@ -106,6 +107,22 @@ impl<'a> InputStream<'a> {
         let blob = self.take(len)?;
 
         Ok(blob)
+    }
+
+    pub(crate) fn array<T>(
+        &mut self, elem_fn: fn(&mut Self) -> Result<T, PacketError>,
+    ) -> Result<Vec<T>, PacketError> {
+        let len = self.le_u8()? as usize;
+
+        std::iter::repeat_with(|| elem_fn(self)).take(len).collect()
+    }
+
+    pub(crate) fn vector3(&mut self) -> Result<Vector3, PacketError> {
+        Ok(Vector3 {
+            x: self.le_f32()?,
+            z: self.le_f32()?,
+            y: self.le_f32()?,
+        })
     }
 
     pub(crate) fn remaining_input(self) -> &'a [u8] {

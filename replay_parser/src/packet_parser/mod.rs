@@ -61,7 +61,7 @@ pub use context::Context;
 mod update_arena;
 
 mod event;
-pub use event::{BattleEvent, EventPrinter, EventStream, PacketName, PacketParser};
+pub use event::{BattleEvent, EventPrinter, EventStream, EventType, PacketName, PacketParser};
 
 pub mod types;
 
@@ -92,8 +92,8 @@ pub(crate) mod prelude {
     pub(crate) use macros::{EventPrinter, Version};
     pub(crate) use serde::{Deserialize, Serialize};
 
-    pub(crate) use super::event::{BattleEvent, EventPrinter, PacketParser, TrackVersion, VersionInfo};
-    pub(crate) use super::serde_packet::{from_slice, from_slice_unchecked};
+    pub(crate) use super::event::{EventPrinter, EventType, PacketParser, TrackVersion, VersionInfo};
+    pub(crate) use super::serde_packet::from_slice;
     pub(crate) use super::types::Vector3;
     pub(crate) use super::{Context, Packet, PacketError};
 }

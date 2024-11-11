@@ -15,7 +15,7 @@ pub struct CreateAvatar {
 
 
 impl PacketParser for CreateAvatar {
-    fn parse_mut(packet: &Packet, context: &mut Context) -> Result<BattleEvent, PacketError> {
+    fn parse_mut(packet: &Packet, context: &mut Context) -> Result<EventType, PacketError> {
         let mut reader = InputStream::from(packet.payload());
 
         let entity_id = reader.le_i32()?;
@@ -49,7 +49,7 @@ impl PacketParser for CreateAvatar {
 
         context.add_entity(entity_id, entity_type);
 
-        Ok(BattleEvent::CreateAvatar(CreateAvatar {
+        Ok(EventType::CreateAvatar(CreateAvatar {
             entity_id,
             data: map,
             unknown: remaining.to_vec(),

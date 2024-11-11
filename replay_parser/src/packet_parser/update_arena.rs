@@ -1,16 +1,16 @@
 use wot_types::ArenaUpdate;
 
 use super::events::{
-    BaseCaptured, BasePoints, EntMethodGeneralInfo, FogOfWar, Period, Statistics, VehicleAdded, VehicleDescr,
-    VehicleKilled, VehicleList, VehicleStatistics, VehicleUpdated,
+    BaseCaptured, BasePoints, EntMethodGeneralInfo, FogOfWar, Period, Statistics, TeamKiller, VehicleAdded,
+    VehicleDescr, VehicleKilled, VehicleList, VehicleStatistics, VehicleUpdated, ViewPoints,
 };
-use super::{BattleEvent, Context, InputStream, PacketError};
+use super::{Context, EventType, InputStream, PacketError};
 use crate::events::AvatarReady;
 
 
 pub(crate) fn parse_update_arena_method(
-    gen_info: EntMethodGeneralInfo, payload: &[u8], _context: &Context,
-) -> Result<BattleEvent, PacketError> {
+    gen_info: EntMethodGeneralInfo, payload: &[u8], context: &Context,
+) -> Result<EventType, PacketError> {
     let mut reader = InputStream::from(payload);
 
     let update_type = reader.le_u8()?;
@@ -30,31 +30,29 @@ pub(crate) fn parse_update_arena_method(
 
 
     let result = match update_type {
-        ArenaUpdate::AvatarReady => BattleEvent::AvatarReady(AvatarReady::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::VehicleAdded => {
-            BattleEvent::VehicleAdded(VehicleAdded::parse_from(gen_info, arena_data)?)
-        }
-        ArenaUpdate::VehicleList => BattleEvent::VehicleList(VehicleList::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::VehicleDescr => {
-            BattleEvent::VehicleDescr(VehicleDescr::parse_from(gen_info, arena_data)?)
-        }
-        ArenaUpdate::BasePoints => BattleEvent::BasePoints(BasePoints::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::BaseCaptured => {
-            BattleEvent::BaseCaptured(BaseCaptured::parse_from(gen_info, arena_data)?)
-        }
+        ArenaUpdate::AvatarReady => EventType::AvatarReady(AvatarReady::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::VehicleAdded => EventType::VehicleAdded(VehicleAdded::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::VehicleList => EventType::VehicleList(VehicleList::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::VehicleDescr => EventType::VehicleDescr(VehicleDescr::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::BasePoints => EventType::BasePoints(BasePoints::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::BaseCaptured => EventType::BaseCaptured(BaseCaptured::parse_from(gen_info, arena_data)?),
         ArenaUpdate::VehicleStatistics => {
-            BattleEvent::VehicleStatistics(VehicleStatistics::parse_from(gen_info, arena_data)?)
+            EventType::VehicleStatistics(VehicleStatistics::parse_from(gen_info, arena_data)?)
         }
         ArenaUpdate::VehicleUpdated => {
-            BattleEvent::VehicleUpdated(VehicleUpdated::parse_from(gen_info, arena_data)?)
+            EventType::VehicleUpdated(VehicleUpdated::parse_from(gen_info, arena_data)?)
         }
         ArenaUpdate::VehicleKilled => {
-            BattleEvent::VehicleKilled(VehicleKilled::parse_from(gen_info, arena_data)?)
+            EventType::VehicleKilled(VehicleKilled::parse_from(gen_info, arena_data)?)
         }
-        ArenaUpdate::Period => BattleEvent::Period(Period::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::Statistics => BattleEvent::Statistics(Statistics::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::FogOfWar => BattleEvent::FogOfWar(FogOfWar::parse_from(gen_info, arena_data)?),
-        _ => BattleEvent::UnimplementedArenaUpdate(update_type.to_string()),
+        ArenaUpdate::Period => EventType::Period(Period::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::Statistics => EventType::Statistics(Statistics::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::FogOfWar => EventType::FogOfWar(FogOfWar::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::ViewPoints => EventType::ViewPoints(ViewPoints::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::TeamKiller => {
+            EventType::TeamKiller(TeamKiller::parse_from(gen_info, arena_data, context)?)
+        }
+        _ => EventType::UnimplementedArenaUpdate(update_type.to_string()),
     };
 
     Ok(result)

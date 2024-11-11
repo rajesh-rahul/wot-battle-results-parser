@@ -7,19 +7,27 @@ use crate::PacketError;
 
 #[derive(Debug)]
 pub struct Context {
-    pub(crate) entities:     HashMap<i32, EntityType>,
-    pub(crate) players:      HashMap<i32, String>,
-    pub(crate) version:      [u16; 4],
-    pub(crate) version_data: &'static WotDataForVersion,
+    pub(crate) entities:      HashMap<i32, EntityType>,
+    pub(crate) players:       HashMap<i32, String>,
+    pub(crate) players_index: HashMap<usize, i32>,
+    pub(crate) version:       [u16; 4],
+    pub(crate) version_data:  &'static WotDataForVersion,
 }
 
 impl Context {
     pub fn new(version: [u16; 4], players: HashMap<i32, String>) -> Self {
         // let validated_version = validate_version(version);
 
+        let mut player_id_list: Vec<_> = players.keys().copied().collect::<Vec<_>>();
+        player_id_list.sort();
+
         Context {
             entities: HashMap::new(),
             players,
+            players_index: (0..player_id_list.len())
+                .into_iter()
+                .zip(player_id_list.into_iter())
+                .collect(),
             version,
             version_data: WOT_DATA_ALL_VERSIONS
                 .get(&utils::version_as_string(validate_version(version)))

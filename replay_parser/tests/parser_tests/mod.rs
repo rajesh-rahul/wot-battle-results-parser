@@ -42,11 +42,13 @@ pub fn get_file_data_for_packet_name(
 
             for event in parser.event_stream().unwrap() {
                 match event {
-                    Err(ReplayError::PacketParseError { packet_name, error, .. }) if packet_name == expected_pkt_name => {
+                    Err(ReplayError::PacketParseError {
+                        packet_name, error, ..
+                    }) if packet_name == expected_pkt_name => {
                         let output_file_path = output_path(packet_name.to_string());
 
                         let data = file_data.entry(output_file_path).or_insert(String::new());
-        
+
                         data.push_str(&error.to_string());
                         data.push_str("\n");
                     }
@@ -56,23 +58,20 @@ pub fn get_file_data_for_packet_name(
                         if count.is_some_and(|c| accepted_packet_counter >= c) {
                             break;
                         }
-        
+
                         if packet_name == expected_pkt_name && (overall_counter % 5 == 0 || count.is_none()) {
                             let output_file_path = output_path(packet_name.to_string());
-        
+
                             let data = file_data.entry(output_file_path).or_insert(String::new());
-        
+
                             data.push_str(&serde_json::to_string(&event).unwrap());
                             data.push_str("\n");
                             accepted_packet_counter += 1;
                         }
-        
                     }
                     _ => {}
                 }
                 overall_counter += 1;
-
-
             }
 
             file_data
