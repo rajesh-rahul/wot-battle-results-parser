@@ -128,4 +128,8 @@ impl<'a> InputStream<'a> {
     pub(crate) fn remaining_input(self) -> &'a [u8] {
         self.0
     }
+
+    pub(crate) fn is_empty(&self) -> bool {
+        self.0.is_empty()
+    }
 }

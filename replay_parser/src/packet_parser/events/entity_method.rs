@@ -1,4 +1,7 @@
-use events::{UpdatePositions, UpdateVehicleAmmo};
+use events::{
+    OnHealthChanged, OnStaticCollision, ShowDamageFromExplosion, ShowDamageFromShot, ShowShooting,
+    ShowTracer, UpdatePositions, UpdateVehicleAmmo,
+};
 use macros::EventPrinter;
 // pub use avatar_methods::update_arena::*;
 use packet_parser::update_arena::parse_update_arena_method;
@@ -57,6 +60,7 @@ fn parse_avatar_methods(
         AvatarMethod::UpdateArena => parse_update_arena_method(gen_info, payload, context),
         AvatarMethod::UpdateVehicleAmmo => UpdateVehicleAmmo::parse_from(gen_info, payload, context),
         AvatarMethod::UpdatePositions => UpdatePositions::parse_from(gen_info, payload, context),
+        AvatarMethod::ShowTracer => ShowTracer::parse_from(gen_info, payload, context),
         _ => Ok(EventType::UnimplementedEntityMethod(gen_info)),
     }
 }
@@ -65,6 +69,13 @@ fn parse_vehicle_methods(
     gen_info: EntMethodGeneralInfo, method_name: VehicleMethod, context: &Context, payload: &[u8],
 ) -> Result<EventType, PacketError> {
     match method_name {
+        VehicleMethod::OnHealthChanged => OnHealthChanged::parse_from(gen_info, payload, context),
+        VehicleMethod::OnStaticCollision => OnStaticCollision::parse_from(gen_info, payload, context),
+        VehicleMethod::ShowDamageFromExplosion => {
+            ShowDamageFromExplosion::parse_from(gen_info, payload, context)
+        }
+        VehicleMethod::ShowDamageFromShot => ShowDamageFromShot::parse_from(gen_info, payload, context),
+        VehicleMethod::ShowShooting => ShowShooting::parse_from(gen_info, payload, context),
         _ => Ok(EventType::UnimplementedEntityMethod(gen_info)),
     }
 }

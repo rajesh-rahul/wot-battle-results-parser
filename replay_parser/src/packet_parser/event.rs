@@ -49,6 +49,12 @@ pub enum EventType {
     TeamKiller(TeamKiller),
     UpdateVehicleAmmo(UpdateVehicleAmmo),
     UpdatePositions(UpdatePositions),
+    OnHealthChanged(OnHealthChanged),
+    OnStaticCollision(OnStaticCollision),
+    ShowDamageFromShot(ShowDamageFromShot),
+    ShowShooting(ShowShooting),
+    ShowDamageFromExplosion(ShowDamageFromExplosion),
+    ShowTracer(ShowTracer),
 }
 
 #[derive(Debug, Clone, Serialize)]
@@ -137,7 +143,13 @@ impl EventType {
             | ViewPoints(_)
             | TeamKiller(_)
             | UpdateVehicleAmmo(_)
-            | UpdatePositions(_) => PacketName::EntityMethod,
+            | UpdatePositions(_)
+            | OnHealthChanged(_)
+            | OnStaticCollision(_)
+            | ShowDamageFromShot(_)
+            | ShowShooting(_)
+            | ShowDamageFromExplosion(_)
+            | ShowTracer(_) => PacketName::EntityMethod,
         }
     }
 
