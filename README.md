@@ -1,4 +1,4 @@
-# World of Tanks Battle Results Parser
+# World of Tanks Replay Parser
 
 This project attempts to parse almost all of the useful information in `.wotreplay` files from WoT `0.9.12` - `1.26.1` (latest version). The goal is to have a CLI that when given a replay file, output all useful events in JSON format.
 
