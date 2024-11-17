@@ -34,3 +34,6 @@ int_tests:
 
 gen_method_mappings:
     python scripts/gen_method_mappings.py
+
+gen_optional_devices:
+    python scripts/gen_optional_devices.py
