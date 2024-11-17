@@ -8,13 +8,17 @@ pub struct VehicleList(Vec<VehicleData>);
 
 impl VehicleList {
     pub fn parse_from(
-        _gen_info: EntMethodGeneralInfo, arena_data: &[u8],
+        _gen_info: EntMethodGeneralInfo, arena_data: &[u8], context: &Context,
     ) -> Result<VehicleList, PacketError> {
         let value = make_pickle_val(&decompress_vec(arena_data)?)?.list()?;
 
         let vehicle_list = value
             .into_iter()
-            .map(|veh_data| veh_data.list().and_then(parse_vehicle_data))
+            .map(|veh_data| {
+                veh_data
+                    .list()
+                    .and_then(|it| parse_vehicle_data(it, context.version))
+            })
             .collect::<Result<Vec<_>, _>>()?;
 
         Ok(VehicleList(vehicle_list))

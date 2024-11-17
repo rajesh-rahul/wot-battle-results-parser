@@ -15,15 +15,14 @@ entity_name_enum_builder = set()
 def main():
     for version in VERSIONS:
         final_json = build_json(version)
-        with open(f"./replay_parser/src/wot_data/v{version}.rs", "w") as f:
+        with open(f"./replay_parser/src/wot_data/version_data/v{version}.rs", "w") as f:
             final_json_to_rust_code(version, final_json, f)
 
-    with open(f"./replay_parser/src/wot_data/mod.rs", "w") as f:
-        f.write("mod structures;\nmod methods;\npub(crate) use structures::*;\npub(crate) use methods::*;\n")
+    with open(f"./replay_parser/src/wot_data/version_data/mod.rs", "w") as f:
         for version in VERSIONS:
             f.write(f"mod v{version};\n")
         f.write("\n\n")
-        f.write("pub const WOT_DATA_ALL_VERSIONS: phf::Map<&'static str, WotDataForVersion> = phf::phf_map! {\n")
+        f.write("pub const WOT_DATA_ALL_VERSIONS: phf::Map<&'static str, super::WotDataForVersion> = phf::phf_map! {\n")
         for version in VERSIONS:
             f.write(f"\t\"{version}\" => v{version}::DATA_{version},\n")
         f.write("};")
@@ -35,7 +34,8 @@ def main():
             f.write(f"[{version_arr[0]}, {version_arr[1]}, {version_arr[2]}, {version_arr[3]}],")
         f.write("];")
 
-        f.write("\n\n#[derive(Debug, Copy, Clone, strum::Display, PartialEq, Eq, serde::Serialize)]\npub enum EntityType {")
+    with open(f"./replay_parser/src/wot_data/entity_type.rs", "w") as f:
+        f.write("#[derive(Debug, Copy, Clone, strum::Display, PartialEq, Eq, serde::Serialize)]\npub enum EntityType {")
         for entity_name in entity_name_enum_builder:
             f.write(entity_name + ",")
         f.write("}")
@@ -57,15 +57,16 @@ def build_json(version):
 
         if entity.get_name() == "Avatar":
             final_json["special_formats"]["create_avatar"] = create_avatar_event_data(entity)
+
         entity_name_enum_builder.add(entity_json["ty"])
         entity_json["struct"] = "EntityData"
 
         props = entity.properties().get_properties_by_flags(
-            EntityFlags.ALL_CLIENTS |
-            EntityFlags.BASE_AND_CLIENT |
-            EntityFlags.OTHER_CLIENTS |
+            # EntityFlags.ALL_CLIENTS |
+            # EntityFlags.BASE_AND_CLIENT |
+            # EntityFlags.OTHER_CLIENTS |
             EntityFlags.OWN_CLIENT |
-            EntityFlags.CELL_PUBLIC_AND_OWN |
+            # EntityFlags.CELL_PUBLIC_AND_OWN |
             EntityFlags.ALL_CLIENTS,
             exposed_index=True
         )
@@ -140,8 +141,8 @@ def get_packet_mappings(version):
 
 
 def final_json_to_rust_code(version, final_json, f):
-    f.write("use super::*;\n\nuse EntityType::*;\nuse crate::PacketName;")
-    f.write(f"pub(crate) const DATA_{version}: WotDataForVersion = ")
+    f.write("use crate::wot_data::*;\n\nuse EntityType::*;\nuse crate::PacketName;")
+    f.write(f"pub(crate) const DATA_{version}: crate::wot_data::WotDataForVersion = ")
     write_struct(final_json, f)
     f.write(";")
 

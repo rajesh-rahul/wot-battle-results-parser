@@ -31,16 +31,22 @@ pub(crate) fn parse_update_arena_method(
 
     let result = match update_type {
         ArenaUpdate::AvatarReady => EventType::AvatarReady(AvatarReady::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::VehicleAdded => EventType::VehicleAdded(VehicleAdded::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::VehicleList => EventType::VehicleList(VehicleList::parse_from(gen_info, arena_data)?),
-        ArenaUpdate::VehicleDescr => EventType::VehicleDescr(VehicleDescr::parse_from(gen_info, arena_data)?),
+        ArenaUpdate::VehicleAdded => {
+            EventType::VehicleAdded(VehicleAdded::parse_from(gen_info, arena_data, context)?)
+        }
+        ArenaUpdate::VehicleList => {
+            EventType::VehicleList(VehicleList::parse_from(gen_info, arena_data, context)?)
+        }
+        ArenaUpdate::VehicleDescr => {
+            EventType::VehicleDescr(VehicleDescr::parse_from(gen_info, arena_data, context)?)
+        }
         ArenaUpdate::BasePoints => EventType::BasePoints(BasePoints::parse_from(gen_info, arena_data)?),
         ArenaUpdate::BaseCaptured => EventType::BaseCaptured(BaseCaptured::parse_from(gen_info, arena_data)?),
         ArenaUpdate::VehicleStatistics => {
             EventType::VehicleStatistics(VehicleStatistics::parse_from(gen_info, arena_data)?)
         }
         ArenaUpdate::VehicleUpdated => {
-            EventType::VehicleUpdated(VehicleUpdated::parse_from(gen_info, arena_data)?)
+            EventType::VehicleUpdated(VehicleUpdated::parse_from(gen_info, arena_data, context)?)
         }
         ArenaUpdate::VehicleKilled => {
             EventType::VehicleKilled(VehicleKilled::parse_from(gen_info, arena_data)?)

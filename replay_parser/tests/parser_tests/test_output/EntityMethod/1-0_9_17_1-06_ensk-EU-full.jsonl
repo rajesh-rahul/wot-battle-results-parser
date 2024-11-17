@@ -1,4 +1,4 @@
-{"time":0.0,"event":{"name":"VehicleList","data":[{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":6,"components":[24,0,12,0,203,0,7,0,19,0,15,0],"optional_device_slots":7,"optional_devices":[0,0,18,0,25,0]},"name":"Michel006","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":503719178,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":212,"components":[85,0,40,0,205,0,16,0,67,0,51,0],"optional_device_slots":0,"optional_devices":[]},"name":"Biohazard333","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507528337,"clan_abbrev":"EGAUX","clan_dbid":500074575,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":44,"components":[92,0,38,0,204,0,9,0,78,0,46,0],"optional_device_slots":7,"optional_devices":[6,0,22,0,19,0]},"name":"Kolkado","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507119770,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":204,"components":[30,0,21,0,204,0,12,0,28,0,25,0],"optional_device_slots":7,"optional_devices":[3,0,5,0,6,0]},"name":"Chobotnice72","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":512597147,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":7,"vehicle_type_id":5,"components":[11,0,13,0,203,0,5,0,11,0,12,0],"optional_device_slots":0,"optional_devices":[]},"name":"12Lenny21","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":501932834,"clan_abbrev":"KRYSY","clan_dbid":500025730,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":7,"vehicle_type_id":7,"components":[15,0,16,0,204,0,8,0,14,0,17,0],"optional_device_slots":7,"optional_devices":[25,0,18,0,21,0]},"name":"alu1111","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502774054,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":208,"components":[79,0,49,0,204,0,20,0,63,0,82,0],"optional_device_slots":7,"optional_devices":[22,0,42,0,19,0]},"name":"mumin_1910","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":503040682,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":28,"components":[61,0,31,0,203,0,8,0,49,0,8,0],"optional_device_slots":6,"optional_devices":[21,0,6,0]},"name":"lukasz4589","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":509513391,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":21,"components":[43,0,40,0,204,0,13,0,35,0,46,0],"optional_device_slots":7,"optional_devices":[19,0,25,0,22,0]},"name":"goktug_34","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":533512625,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":5,"vehicle_type_id":15,"components":[36,0,35,0,205,0,19,0,34,0,28,0],"optional_device_slots":7,"optional_devices":[4,0,6,0,19,0]},"name":"Saux","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508210994,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":7,"components":[28,0,25,0,204,0,7,0,21,0,17,0],"optional_device_slots":5,"optional_devices":[25,0,19,0]},"name":"maks3003","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":529766197,"clan_abbrev":"-UMB-","clan_dbid":500057742,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":196,"components":[210,0,121,0,204,0,28,0,181,0,107,0],"optional_device_slots":7,"optional_devices":[22,0,6,0,4,0]},"name":"_explother_","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":516831286,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":203,"components":[29,0,20,0,204,0,11,0,27,0,24,0],"optional_device_slots":5,"optional_devices":[6,0,21,0]},"name":"mosiu44","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502572988,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":5,"components":[20,0,10,0,203,0,4,0,16,0,13,0],"optional_device_slots":7,"optional_devices":[21,0,18,0,0,0]},"name":"BG_BApHA","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":518615178,"clan_abbrev":"1BGTD","clan_dbid":500012938,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":7,"components":[28,0,25,0,204,0,8,0,21,0,17,0],"optional_device_slots":4,"optional_devices":[19,0]},"name":"FlasheriXX","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508688960,"clan_abbrev":"RBS02","clan_dbid":500047034,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":9,"components":[19,0,97,0,203,0,4,0,15,0,5,0],"optional_device_slots":4,"optional_devices":[21,0]},"name":"derKlaedtke","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":530943174,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":10,"components":[21,0,12,0,203,0,5,0,18,0,12,0],"optional_device_slots":0,"optional_devices":[]},"name":"cokocino","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508150344,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":11,"components":[168,0,3,0,203,0,8,0,140,0,126,0],"optional_device_slots":2,"optional_devices":[6,0]},"name":"barbar_82","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":523190217,"clan_abbrev":"-LCR-","clan_dbid":500012347,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":35,"components":[83,0,38,0,203,0,8,0,66,0,50,0],"optional_device_slots":0,"optional_devices":[]},"name":"Socke26","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508195402,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":40,"components":[91,0,80,0,204,0,5,0,73,0,111,0],"optional_device_slots":7,"optional_devices":[0,0,6,0,4,0]},"name":"alex2003_AS","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":536748370,"clan_abbrev":"LITUS","clan_dbid":500074511,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":15,"components":[30,0,76,0,204,0,4,0,24,0,20,0],"optional_device_slots":6,"optional_devices":[6,0,21,0]},"name":"irontimber","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":544861015,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":19,"components":[39,0,28,0,205,0,7,0,33,0,36,0],"optional_device_slots":1,"optional_devices":[6,0]},"name":"d4v1dk0","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":505271641,"clan_abbrev":"KYOKU","clan_dbid":500137383,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":5,"vehicle_type_id":56,"components":[118,0,62,0,203,0,17,0,102,0,49,0],"optional_device_slots":0,"optional_devices":[]},"name":"jtu1","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":515253514,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":6,"components":[13,0,16,0,203,0,2,0,13,0,10,0],"optional_device_slots":7,"optional_devices":[18,0,21,0,30,0]},"name":"kobra_270","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":543220193,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":3,"vehicle_type_id":20,"components":[36,0,21,0,203,0,15,0,35,0,3,0],"optional_device_slots":7,"optional_devices":[18,0,21,0,9,0]},"name":"Bismarck79","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":500959076,"clan_abbrev":"HERO-","clan_dbid":500018615,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":20,"components":[40,0,79,0,205,0,4,0,32,0,9,0],"optional_device_slots":7,"optional_devices":[6,0,22,0,3,0]},"name":"cztitan13","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":519943142,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":31,"components":[65,0,77,0,203,0,14,0,56,0,42,0],"optional_device_slots":6,"optional_devices":[23,0,25,0]},"name":"chris223324","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502558445,"clan_abbrev":"STNT","clan_dbid":500054308,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":42,"components":[100,0,31,0,205,0,8,0,82,0,9,0],"optional_device_slots":7,"optional_devices":[4,0,19,0,22,0]},"name":"thedab","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507238521,"clan_abbrev":"TFUK2","clan_dbid":500031914,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":42,"components":[100,0,31,0,205,0,8,0,82,0,9,0],"optional_device_slots":0,"optional_devices":[]},"name":"yaro_217","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":528780793,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":15,"components":[26,0,22,0,203,0,11,0,20,0,31,0],"optional_device_slots":4,"optional_devices":[21,0]},"name":"zrj","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":523047677,"clan_abbrev":"P1N0Y","clan_dbid":500021429,"pre_battle_id":0}]}}
+{"time":0.0,"event":{"name":"VehicleList","data":[{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":6,"components":[24,0,12,0,203,0,7,0,19,0,15,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Michel006","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":503719178,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":212,"components":[85,0,40,0,205,0,16,0,67,0,51,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Biohazard333","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507528337,"clan_abbrev":"EGAUX","clan_dbid":500074575,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":44,"components":[92,0,38,0,204,0,9,0,78,0,46,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Kolkado","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507119770,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":204,"components":[30,0,21,0,204,0,12,0,28,0,25,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Chobotnice72","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":512597147,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":7,"vehicle_type_id":5,"components":[11,0,13,0,203,0,5,0,11,0,12,0],"optional_devices":[null,null,null],"enhancements":null},"name":"12Lenny21","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":501932834,"clan_abbrev":"KRYSY","clan_dbid":500025730,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":7,"vehicle_type_id":7,"components":[15,0,16,0,204,0,8,0,14,0,17,0],"optional_devices":[null,null,null],"enhancements":null},"name":"alu1111","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502774054,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":208,"components":[79,0,49,0,204,0,20,0,63,0,82,0],"optional_devices":[null,null,null],"enhancements":null},"name":"mumin_1910","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":503040682,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":28,"components":[61,0,31,0,203,0,8,0,49,0,8,0],"optional_devices":[null,null,null],"enhancements":null},"name":"lukasz4589","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":509513391,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":21,"components":[43,0,40,0,204,0,13,0,35,0,46,0],"optional_devices":[null,null,null],"enhancements":null},"name":"goktug_34","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":533512625,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":5,"vehicle_type_id":15,"components":[36,0,35,0,205,0,19,0,34,0,28,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Saux","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508210994,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":7,"components":[28,0,25,0,204,0,7,0,21,0,17,0],"optional_devices":[null,null,null],"enhancements":null},"name":"maks3003","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":529766197,"clan_abbrev":"-UMB-","clan_dbid":500057742,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":196,"components":[210,0,121,0,204,0,28,0,181,0,107,0],"optional_devices":[null,null,null],"enhancements":null},"name":"_explother_","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":516831286,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":203,"components":[29,0,20,0,204,0,11,0,27,0,24,0],"optional_devices":[null,null,null],"enhancements":null},"name":"mosiu44","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502572988,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":5,"components":[20,0,10,0,203,0,4,0,16,0,13,0],"optional_devices":[null,null,null],"enhancements":null},"name":"BG_BApHA","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":518615178,"clan_abbrev":"1BGTD","clan_dbid":500012938,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":7,"components":[28,0,25,0,204,0,8,0,21,0,17,0],"optional_devices":[null,null,null],"enhancements":null},"name":"FlasheriXX","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508688960,"clan_abbrev":"RBS02","clan_dbid":500047034,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":9,"components":[19,0,97,0,203,0,4,0,15,0,5,0],"optional_devices":[null,null,null],"enhancements":null},"name":"derKlaedtke","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":530943174,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":10,"components":[21,0,12,0,203,0,5,0,18,0,12,0],"optional_devices":[null,null,null],"enhancements":null},"name":"cokocino","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508150344,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":11,"components":[168,0,3,0,203,0,8,0,140,0,126,0],"optional_devices":[null,null,null],"enhancements":null},"name":"barbar_82","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":523190217,"clan_abbrev":"-LCR-","clan_dbid":500012347,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":35,"components":[83,0,38,0,203,0,8,0,66,0,50,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Socke26","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":508195402,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":0,"vehicle_type_id":40,"components":[91,0,80,0,204,0,5,0,73,0,111,0],"optional_devices":[null,null,null],"enhancements":null},"name":"alex2003_AS","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":536748370,"clan_abbrev":"LITUS","clan_dbid":500074511,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":15,"components":[30,0,76,0,204,0,4,0,24,0,20,0],"optional_devices":[null,null,null],"enhancements":null},"name":"irontimber","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":544861015,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":6,"vehicle_type_id":19,"components":[39,0,28,0,205,0,7,0,33,0,36,0],"optional_devices":[null,null,null],"enhancements":null},"name":"d4v1dk0","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":505271641,"clan_abbrev":"KYOKU","clan_dbid":500137383,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":5,"vehicle_type_id":56,"components":[118,0,62,0,203,0,17,0,102,0,49,0],"optional_devices":[null,null,null],"enhancements":null},"name":"jtu1","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":515253514,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":6,"components":[13,0,16,0,203,0,2,0,13,0,10,0],"optional_devices":[null,null,null],"enhancements":null},"name":"kobra_270","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":543220193,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":3,"vehicle_type_id":20,"components":[36,0,21,0,203,0,15,0,35,0,3,0],"optional_devices":[null,null,null],"enhancements":null},"name":"Bismarck79","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":500959076,"clan_abbrev":"HERO-","clan_dbid":500018615,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":20,"components":[40,0,79,0,205,0,4,0,32,0,9,0],"optional_devices":[null,null,null],"enhancements":null},"name":"cztitan13","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":519943142,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":2,"vehicle_type_id":31,"components":[65,0,77,0,203,0,14,0,56,0,42,0],"optional_devices":[null,null,null],"enhancements":null},"name":"chris223324","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":502558445,"clan_abbrev":"STNT","clan_dbid":500054308,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":42,"components":[100,0,31,0,205,0,8,0,82,0,9,0],"optional_devices":[null,null,null],"enhancements":null},"name":"thedab","team":1,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":507238521,"clan_abbrev":"TFUK2","clan_dbid":500031914,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":1,"vehicle_type_id":42,"components":[100,0,31,0,205,0,8,0,82,0,9,0],"optional_devices":[null,null,null],"enhancements":null},"name":"yaro_217","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":528780793,"clan_abbrev":"","clan_dbid":0,"pre_battle_id":0},{"vehicle_compact_descr":{"nation_id":8,"vehicle_type_id":15,"components":[26,0,22,0,203,0,11,0,20,0,31,0],"optional_devices":[null,null,null],"enhancements":null},"name":"zrj","team":2,"is_alive":1,"is_avatar_ready":0,"is_team_killer":0,"account_dbid":523047677,"clan_abbrev":"P1N0Y","clan_dbid":500021429,"pre_battle_id":0}]}}
 {"time":0.0,"event":{"name":"Statistics","data":[{"vehicle_id":18986816,"frags":0},{"vehicle_id":18986817,"frags":0},{"vehicle_id":18986818,"frags":0},{"vehicle_id":18986819,"frags":0},{"vehicle_id":18986820,"frags":0},{"vehicle_id":18986821,"frags":0},{"vehicle_id":18986822,"frags":0},{"vehicle_id":18986823,"frags":0},{"vehicle_id":18986824,"frags":0},{"vehicle_id":18986825,"frags":0},{"vehicle_id":18986826,"frags":0},{"vehicle_id":18986827,"frags":0},{"vehicle_id":18986828,"frags":0},{"vehicle_id":18986829,"frags":0},{"vehicle_id":18986830,"frags":0},{"vehicle_id":18986831,"frags":0},{"vehicle_id":18986832,"frags":0},{"vehicle_id":18986833,"frags":0},{"vehicle_id":18986834,"frags":0},{"vehicle_id":18986835,"frags":0},{"vehicle_id":18986836,"frags":0},{"vehicle_id":18986837,"frags":0},{"vehicle_id":18986838,"frags":0},{"vehicle_id":18986839,"frags":0},{"vehicle_id":18986840,"frags":0},{"vehicle_id":18986841,"frags":0},{"vehicle_id":18986842,"frags":0},{"vehicle_id":18986843,"frags":0},{"vehicle_id":18986844,"frags":0},{"vehicle_id":18986845,"frags":0}]}}
 {"time":0.0,"event":{"name":"Period","data":{"period":"Waiting","end_time":182564.9,"length":60.0,"additional_info":[2,1]}}}
 {"time":0.0,"event":{"name":"UnimplementedArenaUpdate","data":"SyncObjects"}}
@@ -504,7 +504,7 @@
 {"time":154.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":155.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":155.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":18,"time_left":164,"invaders_count":1,"capturing_stopped":false}}}
-{"time":155.2,"event":{"name":"UpdatePositions","data":{"18986831":[-105,-195],"18986840":[-24,-221]}}}
+{"time":155.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986831":[-105,-195]}}}
 {"time":155.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":155.7,"event":{"name":"ShowTracer","data":{"shooter_id":18986822,"shot_id":109347137,"is_ricochet":0,"effects_index":10,"ref_start_point":{"x":15.369859,"z":3.7164187,"y":-119.13625},"velocity":{"x":-541.4017,"z":-11.29393,"y":-384.25604},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":155.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
@@ -527,7 +527,7 @@
 {"time":156.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":157.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":157.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":19,"time_left":162,"invaders_count":1,"capturing_stopped":false}}}
-{"time":157.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986831":[-107,-185]}}}
+{"time":157.2,"event":{"name":"UpdatePositions","data":{"18986831":[-107,-185],"18986840":[-24,-221]}}}
 {"time":157.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":157.7,"event":{"name":"ShowTracer","data":{"shooter_id":18986835,"shot_id":109353281,"is_ricochet":0,"effects_index":10,"ref_start_point":{"x":261.73633,"z":8.026444,"y":177.58513},"velocity":{"x":-265.0158,"z":-14.000595,"y":-652.0634},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":157.7,"event":{"name":"ShowShooting","data":{"vehicle_id":18986835,"burst_count":1,"current_guns":null}}}
@@ -538,7 +538,7 @@
 {"time":158.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":159.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":159.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":21,"time_left":79,"invaders_count":2,"capturing_stopped":false}}}
-{"time":159.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986831":[-110,-175]}}}
+{"time":159.2,"event":{"name":"UpdatePositions","data":{"18986831":[-110,-175],"18986840":[-24,-221]}}}
 {"time":159.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":159.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":160.0,"event":{"name":"ShowTracer","data":{"shooter_id":18986843,"shot_id":109355329,"is_ricochet":0,"effects_index":10,"ref_start_point":{"x":62.060104,"z":3.1954107,"y":-63.356102},"velocity":{"x":793.89435,"z":-36.60185,"y":-91.60812},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
@@ -584,7 +584,7 @@
 {"time":164.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":165.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":27,"time_left":73,"invaders_count":2,"capturing_stopped":false}}}
 {"time":165.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":165.2,"event":{"name":"UpdatePositions","data":{"18986831":[-115,-139],"18986840":[-24,-221]}}}
+{"time":165.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986831":[-115,-139]}}}
 {"time":165.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"ExplodeProjectile"}}}
 {"time":165.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":23,"time_left":154,"invaders_count":1,"capturing_stopped":false}}}
 {"time":165.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -625,7 +625,7 @@
 {"time":168.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":169.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":169.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":25,"time_left":150,"invaders_count":1,"capturing_stopped":false}}}
-{"time":169.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986838":[-282,-95]}}}
+{"time":169.2,"event":{"name":"UpdatePositions","data":{"18986838":[-282,-95],"18986840":[-24,-221]}}}
 {"time":169.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":170.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":170.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":26,"time_left":149,"invaders_count":1,"capturing_stopped":false}}}
@@ -658,7 +658,7 @@
 {"time":172.7,"event":{"name":"ShowShooting","data":{"vehicle_id":18986820,"burst_count":1,"current_guns":null}}}
 {"time":173.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":173.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":27,"time_left":146,"invaders_count":1,"capturing_stopped":false}}}
-{"time":173.2,"event":{"name":"UpdatePositions","data":{"18986838":[-293,-144],"18986833":[-274,-136],"18986840":[-24,-221]}}}
+{"time":173.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986833":[-274,-136],"18986838":[-293,-144]}}}
 {"time":173.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateVehicleMiscStatus"}}}
 {"time":173.6,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":173.9,"event":{"name":"ShowTracer","data":{"shooter_id":18986829,"shot_id":109388097,"is_ricochet":0,"effects_index":6,"ref_start_point":{"x":-75.65784,"z":2.6325612,"y":10.773698},"velocity":{"x":-330.26483,"z":-1.7091984,"y":-662.21},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
@@ -690,7 +690,7 @@
 {"time":174.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"OnBattleEvents"}}}
 {"time":175.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":175.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":29,"time_left":72,"invaders_count":2,"capturing_stopped":false}}}
-{"time":175.2,"event":{"name":"UpdatePositions","data":{"18986840":[-24,-221],"18986838":[-291,-153],"18986833":[-272,-149]}}}
+{"time":175.2,"event":{"name":"UpdatePositions","data":{"18986833":[-272,-149],"18986840":[-24,-221],"18986838":[-291,-153]}}}
 {"time":175.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":175.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":29,"time_left":71,"invaders_count":2,"capturing_stopped":false}}}
 {"time":176.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -713,7 +713,7 @@
 {"time":176.9,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986822,"attacker_vehicle_id":18986836,"points":[15258551714092220674],"effects_index":10,"damage":null,"damage_factor":0,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":177.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":177.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":31,"time_left":70,"invaders_count":2,"capturing_stopped":false}}}
-{"time":177.2,"event":{"name":"UpdatePositions","data":{"18986833":[-270,-159],"18986838":[-291,-155],"18986841":[294,-247]}}}
+{"time":177.2,"event":{"name":"UpdatePositions","data":{"18986838":[-291,-155],"18986841":[294,-247],"18986833":[-270,-159]}}}
 {"time":177.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":177.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":31,"time_left":69,"invaders_count":2,"capturing_stopped":false}}}
 {"time":178.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -770,7 +770,7 @@
 {"time":180.9,"event":{"name":"ShowShooting","data":{"vehicle_id":18986843,"burst_count":1,"current_guns":null}}}
 {"time":180.9,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":35,"time_left":66,"invaders_count":2,"capturing_stopped":false}}}
 {"time":180.9,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":181.2,"event":{"name":"UpdatePositions","data":{"18986833":[-269,-162],"18986838":[-291,-157],"18986841":[295,-259]}}}
+{"time":181.2,"event":{"name":"UpdatePositions","data":{"18986838":[-291,-157],"18986841":[295,-259],"18986833":[-269,-162]}}}
 {"time":181.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":181.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":35,"time_left":65,"invaders_count":2,"capturing_stopped":false}}}
 {"time":181.8,"event":{"name":"ShowTracer","data":{"shooter_id":18986833,"shot_id":109416769,"is_ricochet":0,"effects_index":10,"ref_start_point":{"x":-268.2012,"z":2.7434208,"y":-162.90858},"velocity":{"x":719.83154,"z":1.8606343,"y":-15.463773},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
@@ -798,7 +798,7 @@
 {"time":183.1,"event":{"name":"VehicleKilled","data":{"victim_id":18986831,"killer_id":18986829,"equipment_id":0,"attack_reason":0,"num_vehicles_affected":null}}}
 {"time":183.2,"event":{"name":"ShowTracer","data":{"shooter_id":18986823,"shot_id":109422913,"is_ricochet":0,"effects_index":13,"ref_start_point":{"x":-101.47372,"z":3.039126,"y":-164.5493},"velocity":{"x":-408.67862,"z":-11.61316,"y":655.7948},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":183.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
-{"time":183.2,"event":{"name":"UpdatePositions","data":{"18986833":[-269,-162],"18986841":[295,-263],"18986838":[-289,-165]}}}
+{"time":183.2,"event":{"name":"UpdatePositions","data":{"18986838":[-289,-165],"18986833":[-269,-162],"18986841":[295,-263]}}}
 {"time":183.2,"event":{"name":"ShowTracer","data":{"shooter_id":18986823,"shot_id":109422913,"is_ricochet":1,"effects_index":13,"ref_start_point":{"x":-134.39317,"z":2.0783896,"y":-111.72443},"velocity":{"x":-144.27048,"z":392.55676,"y":649.86176},"gravity":6.2784004,"max_shot_dist":657.7489,"gun_index":null}}}
 {"time":183.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"ExplodeProjectile"}}}
 {"time":183.2,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986827,"energy":2.3613849,"point":{"x":88.73821,"z":2.7684603,"y":218.8652},"normal":{"x":0.57155424,"z":-0.17542611,"y":-0.80159295},"misc_flags":0,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":2,"material_kind":73,"destr_max_health":null}}}
@@ -823,7 +823,7 @@
 {"time":184.9,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986843,"new_health":835,"old_health":null,"attacker_id":18986826,"attack_reason":0,"attack_reason_extra_id":null}}}
 {"time":185.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":185.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":39,"time_left":62,"invaders_count":2,"capturing_stopped":false}}}
-{"time":185.2,"event":{"name":"UpdatePositions","data":{"18986838":[-287,-170],"18986833":[-269,-162],"18986841":[295,-269]}}}
+{"time":185.2,"event":{"name":"UpdatePositions","data":{"18986838":[-287,-170],"18986841":[295,-269],"18986833":[-269,-162]}}}
 {"time":185.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"ExplodeProjectile"}}}
 {"time":185.2,"event":{"name":"ShowDamageFromExplosion","data":{"vehicle_id":18986829,"attacker_id":18986834,"center":{"x":-77.10924,"z":0.6300001,"y":10.602799},"effects_idx":15,"damage":null,"damage_factor":33,"damage_caused_by_discrete_factor":null}}}
 {"time":185.2,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986829,"new_health":652,"old_health":null,"attacker_id":18986834,"attack_reason":0,"attack_reason_extra_id":null}}}
@@ -845,7 +845,7 @@
 {"time":187.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
 {"time":187.1,"event":{"name":"VehicleStatistics","data":{"vehicle_id":18986822,"frags":2}}}
 {"time":187.1,"event":{"name":"VehicleKilled","data":{"victim_id":18986823,"killer_id":18986822,"equipment_id":0,"attack_reason":0,"num_vehicles_affected":null}}}
-{"time":187.2,"event":{"name":"UpdatePositions","data":{"18986838":[-287,-170],"18986833":[-269,-162],"18986841":[296,-276]}}}
+{"time":187.2,"event":{"name":"UpdatePositions","data":{"18986841":[296,-276],"18986838":[-287,-170],"18986833":[-269,-162]}}}
 {"time":187.2,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986823,"attacker_vehicle_id":18986822,"points":[11213588837190009092],"effects_index":10,"damage":null,"damage_factor":26,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":187.2,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986823,"new_health":0,"old_health":null,"attacker_id":18986822,"attack_reason":0,"attack_reason_extra_id":null}}}
 {"time":187.2,"event":{"name":"ShowShooting","data":{"vehicle_id":18986822,"burst_count":1,"current_guns":null}}}
@@ -893,14 +893,14 @@
 {"time":192.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":13,"time_left":87,"invaders_count":2,"capturing_stopped":false}}}
 {"time":192.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":193.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":193.2,"event":{"name":"UpdatePositions","data":{"18986833":[-260,-169],"18986838":[-284,-185]}}}
+{"time":193.2,"event":{"name":"UpdatePositions","data":{"18986838":[-284,-185],"18986833":[-260,-169]}}}
 {"time":193.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":14,"time_left":86,"invaders_count":2,"capturing_stopped":false}}}
 {"time":193.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":194.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":194.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":15,"time_left":85,"invaders_count":2,"capturing_stopped":false}}}
 {"time":194.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":195.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":195.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986838":[-282,-199],"18986833":[-247,-171]}}}
+{"time":195.2,"event":{"name":"UpdatePositions","data":{"18986833":[-247,-171],"18986838":[-282,-199],"18986841":[291,-282]}}}
 {"time":195.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":16,"time_left":84,"invaders_count":2,"capturing_stopped":false}}}
 {"time":195.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":196.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -910,14 +910,14 @@
 {"time":196.8,"event":{"name":"ShowShooting","data":{"vehicle_id":18986820,"burst_count":1,"current_guns":null}}}
 {"time":197.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":197.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"ExplodeProjectile"}}}
-{"time":197.2,"event":{"name":"UpdatePositions","data":{"18986833":[-231,-170],"18986838":[-276,-214],"18986841":[291,-282]}}}
+{"time":197.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986833":[-231,-170],"18986838":[-276,-214]}}}
 {"time":197.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":18,"time_left":82,"invaders_count":2,"capturing_stopped":false}}}
 {"time":197.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":198.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":198.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":19,"time_left":81,"invaders_count":2,"capturing_stopped":false}}}
 {"time":198.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":199.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":199.2,"event":{"name":"UpdatePositions","data":{"18986833":[-216,-167],"18986838":[-265,-229],"18986841":[291,-282]}}}
+{"time":199.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986833":[-216,-167],"18986838":[-265,-229]}}}
 {"time":199.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":20,"time_left":80,"invaders_count":2,"capturing_stopped":false}}}
 {"time":199.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":200.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -953,7 +953,7 @@
 {"time":201.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":201.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":201.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":201.2,"event":{"name":"UpdatePositions","data":{"18986833":[-199,-163],"18986841":[291,-282],"18986838":[-251,-244]}}}
+{"time":201.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986833":[-199,-163],"18986838":[-251,-244]}}}
 {"time":201.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":201.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":201.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -990,7 +990,7 @@
 {"time":203.0,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986832,"energy":2.7646472,"point":{"x":-92.626755,"z":1.8470209,"y":9.824618},"normal":{"x":0.81590784,"z":0.1898921,"y":-0.54610944},"misc_flags":0,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":2,"material_kind":74,"destr_max_health":null}}}
 {"time":203.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":203.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":203.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986833":[-182,-164],"18986838":[-240,-252]}}}
+{"time":203.2,"event":{"name":"UpdatePositions","data":{"18986838":[-240,-252],"18986841":[291,-282],"18986833":[-182,-164]}}}
 {"time":203.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":203.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":203.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -1022,7 +1022,7 @@
 {"time":205.0,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986830,"energy":19.382427,"point":{"x":-105.90615,"z":2.2102702,"y":-69.009895},"normal":{"x":-0.042111237,"z":-0.14049426,"y":-0.98918545},"misc_flags":0,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":-1,"material_kind":0,"destr_max_health":null}}}
 {"time":205.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":205.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":205.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986833":[-165,-168],"18986838":[-235,-254]}}}
+{"time":205.2,"event":{"name":"UpdatePositions","data":{"18986833":[-165,-168],"18986838":[-235,-254],"18986841":[291,-282]}}}
 {"time":205.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":205.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":205.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -1051,7 +1051,7 @@
 {"time":207.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":207.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":207.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":207.2,"event":{"name":"UpdatePositions","data":{"18986833":[-147,-165],"18986841":[291,-282],"18986838":[-238,-253]}}}
+{"time":207.2,"event":{"name":"UpdatePositions","data":{"18986833":[-147,-165],"18986838":[-238,-253],"18986841":[291,-282]}}}
 {"time":207.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":207.2,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986829,"energy":2.8765204,"point":{"x":-84.64487,"z":2.0971363,"y":-42.482075},"normal":{"x":-0.9833691,"z":0.0020688744,"y":-0.1816063},"misc_flags":0,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":-1,"material_kind":0,"destr_max_health":null}}}
 {"time":207.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -1217,7 +1217,7 @@
 {"time":217.2,"event":{"name":"UpdateVehicleAmmo","data":{"vehicle_id":18986838,"compact_descr":1019,"quantity":1,"quantity_in_clip_or_next_stage":0,"time_remaining":0,"base_time":null,"index":null,"total_time":null,"previous_stage":null}}}
 {"time":217.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateVehicleSetting"}}}
 {"time":217.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"SyncVehicleAttrs"}}}
-{"time":217.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986819":[283,203],"18986835":[261,177]}}}
+{"time":217.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986835":[261,177],"18986818":[270,182]}}}
 {"time":217.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":217.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"OnSwitchViewpoint"}}}
 {"time":217.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -1253,7 +1253,7 @@
 {"time":218.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":218.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":24,"time_left":51,"invaders_count":3,"capturing_stopped":false}}}
 {"time":219.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":219.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986835":[261,177],"18986838":[-220,-267],"18986819":[283,203]}}}
+{"time":219.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986819":[283,203],"18986835":[261,177],"18986838":[-220,-267]}}}
 {"time":219.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":219.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":25,"time_left":50,"invaders_count":3,"capturing_stopped":false}}}
 {"time":219.7,"event":{"name":"ShowTracer","data":{"shooter_id":18986820,"shot_id":109474113,"is_ricochet":0,"effects_index":6,"ref_start_point":{"x":12.564053,"z":3.2901692,"y":54.187572},"velocity":{"x":-521.3698,"z":-5.633737,"y":-496.52975},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
@@ -1270,7 +1270,7 @@
 {"time":221.1,"event":{"name":"ShowTracer","data":{"shooter_id":18986820,"shot_id":109478209,"is_ricochet":0,"effects_index":6,"ref_start_point":{"x":12.5654745,"z":3.2901688,"y":54.186085},"velocity":{"x":-520.21936,"z":-10.599662,"y":-497.65402},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":221.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
 {"time":221.1,"event":{"name":"ShowShooting","data":{"vehicle_id":18986820,"burst_count":1,"current_guns":null}}}
-{"time":221.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986835":[261,177],"18986819":[283,203],"18986838":[-214,-269]}}}
+{"time":221.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986818":[270,182],"18986838":[-214,-269],"18986835":[261,177]}}}
 {"time":221.2,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986829,"attacker_vehicle_id":18986820,"points":[13135344013580173317],"effects_index":6,"damage":null,"damage_factor":0,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":221.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":222.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -1279,7 +1279,7 @@
 {"time":222.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":28,"time_left":48,"invaders_count":3,"capturing_stopped":false}}}
 {"time":223.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":29,"time_left":48,"invaders_count":3,"capturing_stopped":false}}}
 {"time":223.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":223.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986835":[261,177],"18986818":[270,182],"18986838":[-217,-271]}}}
+{"time":223.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986838":[-217,-271],"18986819":[283,203],"18986818":[270,182]}}}
 {"time":223.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":29,"time_left":47,"invaders_count":3,"capturing_stopped":false}}}
 {"time":223.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":224.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":30,"time_left":47,"invaders_count":3,"capturing_stopped":false}}}
@@ -1297,7 +1297,7 @@
 {"time":225.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":225.2,"event":{"name":"ShowTracer","data":{"shooter_id":18986822,"shot_id":109484353,"is_ricochet":0,"effects_index":13,"ref_start_point":{"x":95.660675,"z":3.074715,"y":-209.90356},"velocity":{"x":731.23126,"z":-34.225346,"y":-392.038},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":225.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
-{"time":225.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986841":[291,-282],"18986819":[283,203],"18986838":[-217,-271],"18986818":[270,182]}}}
+{"time":225.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986818":[270,182],"18986838":[-217,-271],"18986835":[261,177],"18986841":[291,-282]}}}
 {"time":225.3,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986845,"attacker_vehicle_id":18986822,"points":[16081961740243501316],"effects_index":13,"damage":null,"damage_factor":95,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":225.3,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986845,"new_health":198,"old_health":null,"attacker_id":18986822,"attack_reason":0,"attack_reason_extra_id":null}}}
 {"time":225.3,"event":{"name":"ShowShooting","data":{"vehicle_id":18986822,"burst_count":1,"current_guns":null}}}
@@ -1311,7 +1311,7 @@
 {"time":226.6,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986837,"new_health":1193,"old_health":null,"attacker_id":18986834,"attack_reason":0,"attack_reason_extra_id":null}}}
 {"time":227.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":29,"time_left":47,"invaders_count":3,"capturing_stopped":false}}}
 {"time":227.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":227.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986838":[-212,-268],"18986818":[270,182],"18986819":[283,203],"18986835":[261,177]}}}
+{"time":227.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986818":[270,182],"18986838":[-212,-268],"18986841":[291,-282],"18986835":[261,177]}}}
 {"time":227.5,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":30,"time_left":47,"invaders_count":3,"capturing_stopped":false}}}
 {"time":227.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":228.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":31,"time_left":46,"invaders_count":3,"capturing_stopped":false}}}
@@ -1371,7 +1371,7 @@
 {"time":232.9,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986833,"attacker_vehicle_id":18986820,"points":[2657299705575833856,7167820172705661442],"effects_index":6,"damage":null,"damage_factor":0,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":233.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":9,"time_left":91,"invaders_count":2,"capturing_stopped":false}}}
 {"time":233.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":233.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986838":[-212,-268]}}}
+{"time":233.2,"event":{"name":"UpdatePositions","data":{"18986838":[-212,-268],"18986841":[291,-282]}}}
 {"time":233.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":233.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":234.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":10,"time_left":90,"invaders_count":2,"capturing_stopped":false}}}
@@ -1395,7 +1395,7 @@
 {"time":236.6,"event":{"name":"OnHealthChanged","data":{"vehicle_id":18986844,"new_health":1208,"old_health":null,"attacker_id":18986833,"attack_reason":0,"attack_reason_extra_id":null}}}
 {"time":237.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":13,"time_left":87,"invaders_count":2,"capturing_stopped":false}}}
 {"time":237.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
-{"time":237.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986838":[-210,-265]}}}
+{"time":237.2,"event":{"name":"UpdatePositions","data":{"18986838":[-210,-265],"18986841":[291,-282]}}}
 {"time":237.5,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":238.0,"event":{"name":"BasePoints","data":{"team":2,"base_id":1,"points":14,"time_left":86,"invaders_count":2,"capturing_stopped":false}}}
 {"time":238.0,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
@@ -1535,7 +1535,7 @@
 {"time":245.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":true}}}
 {"time":245.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":245.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":245.2,"event":{"name":"UpdatePositions","data":{"18986838":[-209,-264],"18986841":[291,-282]}}}
+{"time":245.2,"event":{"name":"UpdatePositions","data":{"18986841":[291,-282],"18986838":[-209,-264]}}}
 {"time":245.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":245.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":245.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2416,7 +2416,7 @@
 {"time":293.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":293.1,"event":{"name":"BasePoints","data":{"team":1,"base_id":1,"points":0,"time_left":0,"invaders_count":0,"capturing_stopped":false}}}
 {"time":293.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":293.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986845":[158,-232],"18986819":[283,203]}}}
+{"time":293.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986819":[283,203],"18986818":[270,182]}}}
 {"time":293.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":293.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":293.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2463,7 +2463,7 @@
 {"time":295.2,"event":{"name":"UpdateVehicleAmmo","data":{"vehicle_id":18986838,"compact_descr":1019,"quantity":1,"quantity_in_clip_or_next_stage":0,"time_remaining":0,"base_time":null,"index":null,"total_time":null,"previous_stage":null}}}
 {"time":295.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateVehicleSetting"}}}
 {"time":295.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"SyncVehicleAttrs"}}}
-{"time":295.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986845":[158,-232],"18986819":[283,203],"18986835":[261,177]}}}
+{"time":295.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986835":[261,177],"18986818":[270,182],"18986819":[283,203]}}}
 {"time":295.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":295.3,"event":{"name":"ShowTracer","data":{"shooter_id":18986817,"shot_id":109601089,"is_ricochet":0,"effects_index":10,"ref_start_point":{"x":18.491285,"z":3.29318,"y":-202.77719},"velocity":{"x":-15.464874,"z":-0.77149504,"y":919.86975},"gravity":6.2784004,"max_shot_dist":720.0,"gun_index":null}}}
 {"time":295.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2493,7 +2493,7 @@
 {"time":296.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":297.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":297.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":297.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986845":[158,-232],"18986835":[261,177],"18986819":[283,203]}}}
+{"time":297.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986819":[283,203],"18986845":[158,-232],"18986818":[270,182]}}}
 {"time":297.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":297.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":297.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2513,7 +2513,7 @@
 {"time":298.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":298.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":299.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"OnSwitchViewpoint"}}}
-{"time":299.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986845":[158,-232],"18986818":[270,182],"18986819":[283,203]}}}
+{"time":299.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986818":[270,182],"18986819":[283,203],"18986835":[261,177]}}}
 {"time":300.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateOwnVehiclePosition"}}}
 {"time":300.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"OnSwitchViewpoint"}}}
 {"time":300.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateVehicleGunReloadTime"}}}
@@ -2543,7 +2543,7 @@
 {"time":301.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"StopTracer"}}}
 {"time":301.1,"event":{"name":"ShowDamageFromShot","data":{"vehicle_id":18986837,"attacker_vehicle_id":18986832,"points":[20547674524614912,2286425714313920517],"effects_index":10,"damage":null,"damage_factor":0,"last_material_shield":null,"damage_caused_by_discrete_factor":null}}}
 {"time":301.1,"event":{"name":"ShowShooting","data":{"vehicle_id":18986832,"burst_count":1,"current_guns":null}}}
-{"time":301.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986819":[283,203],"18986818":[270,182],"18986845":[158,-232]}}}
+{"time":301.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986818":[270,182],"18986835":[261,177],"18986819":[283,203]}}}
 {"time":301.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":301.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":301.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2566,7 +2566,7 @@
 {"time":303.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":303.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":303.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":303.2,"event":{"name":"UpdatePositions","data":{"18986818":[270,182],"18986845":[158,-232],"18986819":[283,203],"18986835":[261,177]}}}
+{"time":303.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986818":[270,182],"18986845":[158,-232],"18986835":[261,177]}}}
 {"time":303.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":303.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":303.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2589,7 +2589,7 @@
 {"time":305.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":305.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":305.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":305.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986835":[261,177],"18986818":[270,182]}}}
+{"time":305.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986818":[270,182],"18986819":[283,203]}}}
 {"time":305.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":305.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":305.4,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986838,"energy":12.560211,"point":{"x":-180.61574,"z":3.0591443,"y":-127.495544},"normal":{"x":-0.116945736,"z":-0.20542228,"y":-0.97166115},"misc_flags":6,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":-1,"material_kind":0,"destr_max_health":null}}}
@@ -2610,7 +2610,7 @@
 {"time":306.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":307.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":307.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":307.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986818":[270,182],"18986835":[261,177]}}}
+{"time":307.2,"event":{"name":"UpdatePositions","data":{"18986835":[261,177],"18986818":[270,182],"18986819":[283,203]}}}
 {"time":307.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":307.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":307.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2729,7 +2729,7 @@
 {"time":315.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateVehicleSetting"}}}
 {"time":315.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"SyncVehicleAttrs"}}}
 {"time":315.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":315.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986819":[283,203]}}}
+{"time":315.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986845":[158,-232]}}}
 {"time":315.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":315.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":315.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2776,7 +2776,7 @@
 {"time":317.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":317.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":317.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":317.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986819":[283,203]}}}
+{"time":317.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986845":[158,-232]}}}
 {"time":317.2,"event":{"name":"OnStaticCollision","data":{"vehicle_id":18986838,"energy":3.3758676,"point":{"x":-187.54295,"z":2.2396646,"y":5.9720416},"normal":{"x":0.4281606,"z":0.09719489,"y":-0.8984607},"misc_flags":0,"damage":0.0,"damage_left_track":0.0,"damage_right_track":0.0,"destr_effects_idx":3,"material_kind":73,"destr_max_health":null}}}
 {"time":317.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":317.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
@@ -2840,7 +2840,7 @@
 {"time":323.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":323.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":323.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
-{"time":323.2,"event":{"name":"UpdatePositions","data":{"18986819":[283,203],"18986845":[158,-232]}}}
+{"time":323.2,"event":{"name":"UpdatePositions","data":{"18986845":[158,-232],"18986819":[283,203]}}}
 {"time":323.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":323.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}
 {"time":323.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18907849,"entity_type":"Avatar","method_name":"UpdateGunMarker"}}}

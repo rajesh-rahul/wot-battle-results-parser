@@ -71,17 +71,17 @@ packet parse error: packet id=7130 type=8 packet_name=EntityMethod error=Not fou
 packet parse error: packet id=7530 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":30.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":30.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=8013 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=8042 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=8154 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=8013 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806041 not found for current replay context
+packet parse error: packet id=8042 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=8154 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
 packet parse error: packet id=8181 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=8836 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=9129 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=9129 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":35.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 packet parse error: packet id=9490 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=9582 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=9935 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=9997 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=9582 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806022 not found for current replay context
+packet parse error: packet id=9935 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806022 not found for current replay context
+packet parse error: packet id=9997 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806041 not found for current replay context
 packet parse error: packet id=10084 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=10649 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=11244 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -93,9 +93,9 @@ packet parse error: packet id=13789 type=8 packet_name=EntityMethod error=Not fo
 {"time":51.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":51.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":51.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=14321 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=14321 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 packet parse error: packet id=14419 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=14923 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=14923 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 packet parse error: packet id=15042 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":54.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":54.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -116,7 +116,7 @@ packet parse error: packet id=16323 type=8 packet_name=EntityMethod error=Not fo
 {"time":58.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":58.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":58.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=16651 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=16651 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":59.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":59.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":59.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -129,36 +129,36 @@ packet parse error: packet id=18840 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=19475 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=20057 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=20579 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=20789 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=20789 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 packet parse error: packet id=21123 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=21599 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=22113 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=22216 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=22216 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=22584 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=23066 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":82.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":83.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=23548 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=24000 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=24092 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=24092 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 packet parse error: packet id=24449 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=24876 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=25126 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=25151 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=25175 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=25202 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=25225 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=25126 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=25151 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=25175 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=25202 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=25225 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":91.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=25319 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":92.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":93.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=25715 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=25745 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=25745 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=26081 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":96.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":97.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":97.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=26302 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=26302 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":97.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=26435 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=26801 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -174,19 +174,19 @@ packet parse error: packet id=28242 type=8 packet_name=EntityMethod error=Not fo
 {"time":108.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":108.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":108.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=28439 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=28439 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":109.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=28625 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":111.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=28868 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=28868 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":111.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=28984 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":113.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=29251 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=29272 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=29251 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=29272 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":113.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=29319 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=29351 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=29351 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":114.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 packet parse error: packet id=29647 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":116.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
@@ -194,25 +194,25 @@ packet parse error: packet id=29963 type=8 packet_name=EntityMethod error=Not fo
 {"time":118.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":118.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":118.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=30096 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=30096 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":118.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":118.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
 {"time":118.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=30120 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=30122 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=30120 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
+packet parse error: packet id=30122 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
 {"time":119.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=30278 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":119.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":120.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=30402 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=30402 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":121.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=30508 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=30511 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=30508 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
+packet parse error: packet id=30511 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
 packet parse error: packet id=30629 type=8 packet_name=EntityMethod error=nom: incomplete input
 packet parse error: packet id=30650 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":122.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=30683 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=30685 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=30683 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
+packet parse error: packet id=30685 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
 {"time":122.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=31069 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":124.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
@@ -221,18 +221,18 @@ packet parse error: packet id=31069 type=8 packet_name=EntityMethod error=Not fo
 {"time":125.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":125.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":125.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=31286 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=31286 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":125.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":125.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=31308 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=31310 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=31308 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
+packet parse error: packet id=31310 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
 {"time":125.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":125.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":125.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=31367 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=31367 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806038 not found for current replay context
 {"time":125.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":125.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=31405 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=31405 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 packet parse error: packet id=31459 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=31865 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":128.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
@@ -245,29 +245,29 @@ packet parse error: packet id=32304 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=32786 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":132.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":133.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=33116 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=33116 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":133.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":133.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=33221 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=33221 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 packet parse error: packet id=33304 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":134.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":134.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=33517 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=33517 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":134.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":134.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=33783 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":137.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":137.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":137.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=34080 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=34080 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":137.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=34246 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=34693 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=35099 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=35259 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=35259 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":142.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=35276 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=35285 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=35276 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=35285 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":143.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":143.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=35496 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -285,23 +285,23 @@ packet parse error: packet id=36251 type=8 packet_name=EntityMethod error=Not fo
 {"time":148.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":148.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ExplodeVehicleBeforeRespawn"}}}
 {"time":148.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnChatAction"}}}
-packet parse error: packet id=36347 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=36350 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=36360 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36347 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=36350 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=36360 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":148.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":148.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=36425 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36425 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":149.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=36534 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=36537 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36534 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=36537 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 {"time":149.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=36616 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36616 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
 {"time":149.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=36646 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36646 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":149.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":149.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":149.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=36689 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=36689 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=36704 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":150.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":151.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
@@ -314,57 +314,57 @@ packet parse error: packet id=37086 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=37491 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":154.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":154.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=37540 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=37540 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 packet parse error: packet id=37865 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":156.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":156.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":156.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=38026 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=38030 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38026 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=38030 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 packet parse error: packet id=38244 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":157.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":159.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=38491 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38491 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":159.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=38501 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=38503 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38501 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
+packet parse error: packet id=38503 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
 {"time":159.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":159.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":159.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=38560 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38560 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":159.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":159.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=38584 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=38586 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38584 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
+packet parse error: packet id=38586 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
 packet parse error: packet id=38630 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":159.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":161.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":161.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=38885 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=38887 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38885 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
+packet parse error: packet id=38887 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":161.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=38985 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=38985 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
 packet parse error: packet id=38997 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":162.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=39151 type=8 packet_name=EntityMethod error=nom: incomplete input
 {"time":163.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":163.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=39299 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=39299 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 packet parse error: packet id=39418 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":163.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":164.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=39617 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=39617 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ExplodeVehicleBeforeRespawn"}}}
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnChatAction"}}}
 {"time":164.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=39640 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39649 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39651 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39656 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39659 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=39640 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=39649 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
+packet parse error: packet id=39651 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
+packet parse error: packet id=39656 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=39659 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":164.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=39769 type=8 packet_name=EntityMethod error=nom: incomplete input
 {"time":165.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
@@ -373,22 +373,22 @@ packet parse error: packet id=39769 type=8 packet_name=EntityMethod error=nom: i
 {"time":165.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":165.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":165.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=39877 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39890 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=39877 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=39890 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=39900 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":165.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=39918 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=39920 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=39918 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
+packet parse error: packet id=39920 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 packet parse error: packet id=40004 type=8 packet_name=EntityMethod error=nom: incomplete input
 packet parse error: packet id=40243 type=8 packet_name=EntityMethod error=nom: incomplete input
 packet parse error: packet id=40380 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=40494 type=8 packet_name=EntityMethod error=nom: incomplete input
 {"time":168.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=40509 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=40509 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":169.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":169.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":169.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=40809 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=40809 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806038 not found for current replay context
 {"time":169.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=40879 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":171.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
@@ -396,34 +396,34 @@ packet parse error: packet id=40879 type=8 packet_name=EntityMethod error=Not fo
 {"time":171.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":171.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ExplodeVehicleBeforeRespawn"}}}
 {"time":171.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnChatAction"}}}
-packet parse error: packet id=41301 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=41304 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=41301 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=41304 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":171.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=41374 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":172.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":172.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=41473 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=41473 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":173.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 packet parse error: packet id=41786 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=42261 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=42572 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=42575 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=42572 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=42575 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":177.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":177.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":177.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":177.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ExplodeVehicleBeforeRespawn"}}}
 {"time":177.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnChatAction"}}}
-packet parse error: packet id=42739 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=42739 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 packet parse error: packet id=42758 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":178.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":178.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=42850 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=42852 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=42850 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=42852 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":178.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=42941 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=42944 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=43043 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=43183 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=42941 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=42944 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=43043 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
+packet parse error: packet id=43183 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":179.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCmdResponseExt"}}}
 {"time":179.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCmdResponseExt"}}}
 {"time":179.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCmdResponseExt"}}}
@@ -435,13 +435,13 @@ packet parse error: packet id=43249 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=43674 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":182.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":182.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=43773 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=43773 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 packet parse error: packet id=44101 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":184.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=44132 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=44135 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=44137 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=44140 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=44132 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=44135 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=44137 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=44140 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
 {"time":184.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":184.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=44500 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -449,42 +449,42 @@ packet parse error: packet id=44877 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=45269 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":190.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":190.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=45412 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=45412 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 packet parse error: packet id=45613 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":192.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=45970 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":194.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=46176 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=46179 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=46182 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=46185 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=46176 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=46179 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=46182 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=46185 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=46365 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":195.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=46718 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=47065 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":200.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=47156 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=47156 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 packet parse error: packet id=47424 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=47758 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=48055 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":207.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":207.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":207.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=48315 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=48315 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":207.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":207.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=48343 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=48343 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806019 not found for current replay context
 packet parse error: packet id=48437 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":208.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=48595 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=48595 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":209.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":209.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":209.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
-packet parse error: packet id=48651 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=48656 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=48651 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=48656 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":209.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=48668 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=48670 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=48668 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=48670 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":209.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":209.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=48757 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -493,8 +493,8 @@ packet parse error: packet id=48818 type=8 packet_name=EntityMethod error=nom: i
 {"time":211.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":211.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":211.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=49077 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=49080 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=49077 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=49080 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 packet parse error: packet id=49092 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":212.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":213.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
@@ -503,54 +503,54 @@ packet parse error: packet id=49792 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=50178 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":218.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":218.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=50270 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=50272 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=50270 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=50272 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
 {"time":219.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":219.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=50448 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=50450 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=50448 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=50450 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
 packet parse error: packet id=50627 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":220.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=50821 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=50821 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":221.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=50869 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=50871 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=50968 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=50996 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=51019 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=50869 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=50871 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=50968 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=50996 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=51019 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=51035 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=51441 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":225.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=51690 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=51690 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":225.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=51743 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=51745 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=51743 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
+packet parse error: packet id=51745 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806037 not found for current replay context
 {"time":225.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":225.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=51788 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=51791 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=51788 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
+packet parse error: packet id=51791 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":225.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=51860 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=52024 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52024 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":227.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":227.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":227.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=52114 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52114 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":227.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":227.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=52144 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52144 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":227.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=52263 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=52269 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52269 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":228.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=52338 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52338 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 {"time":228.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=52420 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=52422 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52420 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
+packet parse error: packet id=52422 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":228.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":228.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":229.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=52688 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=52688 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 packet parse error: packet id=52701 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":231.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":231.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -569,7 +569,7 @@ packet parse error: packet id=53567 type=8 packet_name=EntityMethod error=Not fo
 {"time":234.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":234.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":234.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=53653 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=53653 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":234.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":235.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":235.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -581,8 +581,8 @@ packet parse error: packet id=53866 type=8 packet_name=EntityMethod error=Not fo
 {"time":236.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":236.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":236.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=53916 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=53919 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=53916 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=53919 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":236.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":236.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":236.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -590,8 +590,8 @@ packet parse error: packet id=53919 type=8 packet_name=EntityMethod error=entity
 {"time":236.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
 {"time":236.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":236.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=54026 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=54028 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=54026 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=54028 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 {"time":237.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":237.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":237.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -622,7 +622,7 @@ packet parse error: packet id=54934 type=8 packet_name=EntityMethod error=Not fo
 {"time":242.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":242.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":242.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=55045 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=55045 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":242.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":242.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":243.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -636,7 +636,7 @@ packet parse error: packet id=55246 type=8 packet_name=EntityMethod error=Not fo
 {"time":245.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":245.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":245.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=55447 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=55447 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":245.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=55544 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":246.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -658,11 +658,11 @@ packet parse error: packet id=56216 type=8 packet_name=EntityMethod error=Not fo
 {"time":250.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":250.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":250.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=56267 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=56267 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":250.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":250.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":250.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=56354 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=56354 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":250.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":251.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":251.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -675,7 +675,7 @@ packet parse error: packet id=56524 type=8 packet_name=EntityMethod error=Not fo
 {"time":253.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":253.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":253.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=56782 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=56782 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":253.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=56836 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":254.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -683,14 +683,14 @@ packet parse error: packet id=56836 type=8 packet_name=EntityMethod error=Not fo
 {"time":254.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":254.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":254.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=56982 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=56984 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=56982 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
+packet parse error: packet id=56984 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":255.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":255.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":255.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":255.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=57068 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=57070 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=57068 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
+packet parse error: packet id=57070 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":255.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=57181 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":256.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -703,11 +703,11 @@ packet parse error: packet id=57181 type=8 packet_name=EntityMethod error=Not fo
 {"time":257.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":257.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 packet parse error: packet id=57557 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=57562 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=57562 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":258.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":258.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=57589 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=57591 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=57589 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806023 not found for current replay context
+packet parse error: packet id=57591 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806023 not found for current replay context
 {"time":258.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":258.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":258.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -716,13 +716,13 @@ packet parse error: packet id=57591 type=8 packet_name=EntityMethod error=entity
 {"time":259.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":259.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":259.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=57850 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=57850 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":259.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=57952 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":260.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":260.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":260.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=58174 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=58174 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":261.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":261.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":261.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -731,11 +731,11 @@ packet parse error: packet id=58323 type=8 packet_name=EntityMethod error=Not fo
 {"time":262.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":262.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":263.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=58560 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=58560 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":263.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":263.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=58617 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=58620 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=58617 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
+packet parse error: packet id=58620 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":263.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":263.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":263.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -745,18 +745,18 @@ packet parse error: packet id=58707 type=8 packet_name=EntityMethod error=Not fo
 {"time":264.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":264.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":264.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=58823 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=58823 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":264.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":265.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":265.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":265.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=58963 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=58963 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":265.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":265.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":265.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":265.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=59037 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=59039 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=59037 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806023 not found for current replay context
+packet parse error: packet id=59039 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806023 not found for current replay context
 packet parse error: packet id=59050 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":266.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":266.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -809,24 +809,24 @@ packet parse error: packet id=60920 type=8 packet_name=EntityMethod error=Not fo
 {"time":279.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":279.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":279.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=61225 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=61228 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=61225 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=61228 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":279.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":279.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":279.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":279.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":279.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=61283 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=61283 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 packet parse error: packet id=61299 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":279.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":279.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=61311 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=61313 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=61311 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=61313 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":280.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":280.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":280.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":280.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=61391 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=61391 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":280.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":280.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":281.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -846,7 +846,7 @@ packet parse error: packet id=62000 type=8 packet_name=EntityMethod error=Not fo
 {"time":284.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":284.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":284.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=62115 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=62115 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":284.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":285.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":285.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -854,13 +854,13 @@ packet parse error: packet id=62115 type=8 packet_name=EntityMethod error=entity
 {"time":285.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=62356 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":286.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=62404 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=62404 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":286.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":286.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":286.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":286.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=62477 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=62479 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=62477 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=62479 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 {"time":286.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":287.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":287.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -873,7 +873,7 @@ packet parse error: packet id=62727 type=8 packet_name=EntityMethod error=Not fo
 {"time":288.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":288.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":288.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=62910 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=62910 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":289.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":289.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":289.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -882,11 +882,11 @@ packet parse error: packet id=63075 type=8 packet_name=EntityMethod error=Not fo
 {"time":290.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":290.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":290.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=63237 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=63237 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806034 not found for current replay context
 {"time":291.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":291.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":291.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
-packet parse error: packet id=63307 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=63307 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":291.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=63431 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":292.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -918,11 +918,11 @@ packet parse error: packet id=64538 type=8 packet_name=EntityMethod error=Not fo
 {"time":299.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":299.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":299.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=64814 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=64814 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":299.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":299.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":299.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=64905 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=64905 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
 packet parse error: packet id=64917 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":299.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":300.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -932,11 +932,11 @@ packet parse error: packet id=64917 type=8 packet_name=EntityMethod error=Not fo
 {"time":301.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":301.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":301.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=65284 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=65284 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=65292 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":302.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=65330 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=65332 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=65330 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=65332 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
 {"time":302.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":302.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":302.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
@@ -954,14 +954,14 @@ packet parse error: packet id=65616 type=8 packet_name=EntityMethod error=Not fo
 {"time":305.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":305.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":305.495,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=65840 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=65840 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":305.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":305.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 packet parse error: packet id=65914 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":306.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":306.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":306.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=65995 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=65995 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":306.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":306.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":306.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
@@ -981,7 +981,7 @@ packet parse error: packet id=66291 type=8 packet_name=EntityMethod error=Not fo
 {"time":309.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":309.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":309.895,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=66658 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=66658 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 packet parse error: packet id=66672 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":310.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":310.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -996,9 +996,9 @@ packet parse error: packet id=66672 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=67080 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":312.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":312.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=67110 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=67112 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=67120 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=67110 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=67112 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=67120 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806026 not found for current replay context
 {"time":312.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":312.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":312.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1032,21 +1032,21 @@ packet parse error: packet id=68343 type=8 packet_name=EntityMethod error=Not fo
 {"time":318.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":318.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":318.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=68475 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=68475 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":318.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":318.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":318.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":318.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":318.795,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=68512 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=68512 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":318.995,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=68562 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=68564 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=68562 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=68564 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 {"time":319.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":319.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
 {"time":319.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=68623 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=68625 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=68623 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
+packet parse error: packet id=68625 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806040 not found for current replay context
 {"time":319.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":319.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":319.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1079,8 +1079,8 @@ packet parse error: packet id=69642 type=8 packet_name=EntityMethod error=Not fo
 {"time":324.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":325.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":325.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=69909 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=69912 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=69909 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=69912 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":325.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":325.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=70049 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1104,7 +1104,7 @@ packet parse error: packet id=70387 type=8 packet_name=EntityMethod error=Not fo
 {"time":329.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":329.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":329.395,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=70604 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=70604 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":329.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":329.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":329.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1112,19 +1112,19 @@ packet parse error: packet id=70604 type=8 packet_name=EntityMethod error=entity
 packet parse error: packet id=70699 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":330.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":330.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=70722 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=70726 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=70722 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=70726 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":330.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":330.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":330.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":330.595,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=70806 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=70811 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=70806 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=70811 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":330.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":330.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":331.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=70885 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=70888 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=70885 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
+packet parse error: packet id=70888 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806031 not found for current replay context
 {"time":331.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":331.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":331.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1139,8 +1139,8 @@ packet parse error: packet id=71037 type=8 packet_name=EntityMethod error=Not fo
 {"time":333.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":333.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=71349 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=71383 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=71386 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=71383 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=71386 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":334.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":334.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":334.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1197,10 +1197,10 @@ packet parse error: packet id=72932 type=8 packet_name=EntityMethod error=Not fo
 {"time":345.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=73262 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":346.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=73322 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=73324 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=73374 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=73376 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=73322 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=73324 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=73374 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=73376 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":346.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":346.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":347.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1216,8 +1216,8 @@ packet parse error: packet id=73575 type=8 packet_name=EntityMethod error=Not fo
 {"time":349.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":349.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":349.295,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=73776 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=73778 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=73776 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
+packet parse error: packet id=73778 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806039 not found for current replay context
 {"time":349.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":349.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=73853 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1228,7 +1228,7 @@ packet parse error: packet id=74710 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=75012 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=75269 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":360.095,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=75286 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=75286 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":361.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":361.195,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":361.695,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1249,9 +1249,9 @@ packet parse error: packet id=76295 type=8 packet_name=EntityMethod error=Not fo
 packet parse error: packet id=76532 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=76785 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=77046 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=77095 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=77095 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":375.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=77238 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=77238 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 packet parse error: packet id=77310 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=77540 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=77812 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1275,38 +1275,38 @@ packet parse error: packet id=80573 type=8 packet_name=EntityMethod error=Not fo
 {"time":403.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":403.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":403.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=80816 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=80816 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":403.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":403.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
-packet parse error: packet id=80843 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=80845 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=80843 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=80845 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=80871 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":404.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=81188 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":406.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=81272 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81272 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 {"time":406.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":406.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
-packet parse error: packet id=81287 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81287 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 packet parse error: packet id=81315 type=8 packet_name=EntityMethod error=nom: incomplete input
 {"time":407.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":407.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=81436 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81436 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":407.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":407.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=81462 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81462 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=81513 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":408.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=81654 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81654 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":408.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=81671 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=81671 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 {"time":409.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":409.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":409.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=81826 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":411.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=82053 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=82056 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=82053 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=82056 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=82160 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":412.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=82477 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1314,16 +1314,16 @@ packet parse error: packet id=82795 type=8 packet_name=EntityMethod error=Not fo
 {"time":417.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=83107 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":419.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=83366 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=83366 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 packet parse error: packet id=83433 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=83721 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=84046 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=84386 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":426.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=84463 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=84463 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":426.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=84488 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=84490 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=84488 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
+packet parse error: packet id=84490 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806044 not found for current replay context
 {"time":426.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":426.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=84717 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1344,7 +1344,7 @@ packet parse error: packet id=87519 type=8 packet_name=EntityMethod error=Not fo
 {"time":446.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 packet parse error: packet id=87846 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":449.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=88152 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=88152 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806021 not found for current replay context
 packet parse error: packet id=88196 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":450.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":452.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
@@ -1357,8 +1357,8 @@ packet parse error: packet id=89414 type=8 packet_name=EntityMethod error=Not fo
 {"time":457.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=89793 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":458.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=89806 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=89811 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=89806 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806041 not found for current replay context
+packet parse error: packet id=89811 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 packet parse error: packet id=90182 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":460.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":461.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
@@ -1368,47 +1368,47 @@ packet parse error: packet id=90606 type=8 packet_name=EntityMethod error=Not fo
 {"time":463.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":463.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":463.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=90997 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=90999 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=90997 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
+packet parse error: packet id=90999 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806020 not found for current replay context
 packet parse error: packet id=91050 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=91416 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=91418 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=91416 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806041 not found for current replay context
+packet parse error: packet id=91418 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806041 not found for current replay context
 {"time":465.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":465.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=91459 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=91862 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=92017 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92060 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=92017 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=92060 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":469.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=92172 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92174 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92176 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=92172 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=92174 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=92176 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 packet parse error: packet id=92258 type=8 packet_name=EntityMethod error=nom: incomplete input
 packet parse error: packet id=92299 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":470.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":470.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":470.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
-packet parse error: packet id=92460 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92466 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=92460 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=92466 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":470.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":470.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=92487 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92489 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=92495 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=92487 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=92489 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=92495 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=92709 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":472.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=92994 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=92994 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
 {"time":473.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":473.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
 {"time":473.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"BattleEventsSummary"}}}
 {"time":473.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
-packet parse error: packet id=93021 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=93027 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=93021 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=93027 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":473.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 packet parse error: packet id=93119 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=93203 type=8 packet_name=EntityMethod error=nom: incomplete input
@@ -1420,17 +1420,17 @@ packet parse error: packet id=93381 type=8 packet_name=EntityMethod error=nom: i
 {"time":475.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateCarriedFlagPositions"}}}
 {"time":475.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":475.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=93406 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=93410 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=93412 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=93406 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=93410 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=93412 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":475.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":475.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=93502 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":476.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=93575 type=8 packet_name=EntityMethod error=nom: incomplete input
 {"time":476.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=93615 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=93617 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=93615 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806021 not found for current replay context
+packet parse error: packet id=93617 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806021 not found for current replay context
 {"time":476.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":476.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":476.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
@@ -1438,13 +1438,13 @@ packet parse error: packet id=93617 type=8 packet_name=EntityMethod error=entity
 {"time":476.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":476.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":476.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
-packet parse error: packet id=93659 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=93659 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806017 not found for current replay context
 {"time":477.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
 {"time":477.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":477.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 packet parse error: packet id=93870 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":478.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=93905 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=93905 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806021 not found for current replay context
 packet parse error: packet id=94248 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":480.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":480.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1464,12 +1464,12 @@ packet parse error: packet id=94612 type=8 packet_name=EntityMethod error=Not fo
 {"time":482.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":482.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateState"}}}
 {"time":482.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
-packet parse error: packet id=94787 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=94789 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=94794 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=94787 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=94789 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=94794 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":483.0,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=94819 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=94840 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=94819 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=94840 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 {"time":483.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":483.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=94889 type=8 packet_name=EntityMethod error=nom: incomplete input
@@ -1482,9 +1482,9 @@ packet parse error: packet id=95003 type=8 packet_name=EntityMethod error=Not fo
 {"time":484.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCollisionWithVehicle"}}}
 {"time":484.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":484.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=95046 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=95048 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=95050 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=95046 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=95048 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=95050 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
 {"time":484.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":484.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=95085 type=8 packet_name=EntityMethod error=nom: incomplete input
@@ -1520,9 +1520,9 @@ packet parse error: packet id=96012 type=8 packet_name=EntityMethod error=Not fo
 {"time":491.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":491.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":491.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=96342 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=96344 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=96350 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=96342 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=96344 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806024 not found for current replay context
+packet parse error: packet id=96350 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=96373 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":492.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":492.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1542,7 +1542,7 @@ packet parse error: packet id=96754 type=8 packet_name=EntityMethod error=Not fo
 {"time":495.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":495.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":495.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=97147 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=97147 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=97157 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":496.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":496.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1553,9 +1553,9 @@ packet parse error: packet id=97157 type=8 packet_name=EntityMethod error=Not fo
 {"time":496.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":496.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":496.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
-packet parse error: packet id=97264 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=97267 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=97269 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=97264 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=97267 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
+packet parse error: packet id=97269 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806032 not found for current replay context
 {"time":496.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":496.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":497.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
@@ -1565,13 +1565,13 @@ packet parse error: packet id=97903 type=8 packet_name=EntityMethod error=Not fo
 {"time":500.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnCombatEquipmentShotLaunched"}}}
 {"time":501.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":501.9,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=98249 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=98252 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=98249 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=98252 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=98261 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=98580 type=8 packet_name=EntityMethod error=Not found: 76 not found
-packet parse error: packet id=98730 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=98731 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=98732 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=98730 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=98731 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
+packet parse error: packet id=98732 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806028 not found for current replay context
 packet parse error: packet id=98903 type=8 packet_name=EntityMethod error=Not found: 76 not found
 packet parse error: packet id=99200 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":509.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
@@ -1625,9 +1625,9 @@ packet parse error: packet id=100884 type=8 packet_name=EntityMethod error=Not f
 {"time":521.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":521.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":521.6,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
-packet parse error: packet id=101235 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=101238 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=101240 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=101235 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806018 not found for current replay context
+packet parse error: packet id=101238 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806027 not found for current replay context
+packet parse error: packet id=101240 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806027 not found for current replay context
 {"time":521.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":521.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=101314 type=8 packet_name=EntityMethod error=Not found: 76 not found
@@ -1639,24 +1639,24 @@ packet parse error: packet id=101420 type=8 packet_name=EntityMethod error=nom: 
 {"time":523.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":523.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":523.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
-packet parse error: packet id=101571 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=101571 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806043 not found for current replay context
 {"time":523.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":523.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=101661 type=8 packet_name=EntityMethod error=Not found: 76 not found
 {"time":524.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":524.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=101683 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=101685 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
-packet parse error: packet id=101692 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=101683 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806042 not found for current replay context
+packet parse error: packet id=101685 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806042 not found for current replay context
+packet parse error: packet id=101692 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806036 not found for current replay context
 {"time":524.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":524.1,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":524.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":524.5,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=101758 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=101758 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806042 not found for current replay context
 {"time":524.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":524.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":524.8,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"ShowOwnVehicleHitDirection"}}}
-packet parse error: packet id=101813 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=101813 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806042 not found for current replay context
 {"time":525.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"OnSmoke"}}}
 {"time":525.3,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":525.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
@@ -1668,7 +1668,7 @@ packet parse error: packet id=101993 type=8 packet_name=EntityMethod error=Not f
 {"time":527.2,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":527.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"MessengerOnActionByServerChat2"}}}
 {"time":527.4,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateAvatarPrivateStats"}}}
-packet parse error: packet id=102230 type=8 packet_name=EntityMethod error=entity_type=HangarVehicle
+packet parse error: packet id=102230 type=8 packet_name=EntityMethod error=Not found: entity with id: 18806045 not found for current replay context
 {"time":527.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 {"time":527.7,"event":{"name":"UnimplementedEntityMethod","data":{"entity_id":18839661,"entity_type":"Avatar","method_name":"UpdateQuestProgress"}}}
 packet parse error: packet id=102319 type=8 packet_name=EntityMethod error=Not found: 76 not found

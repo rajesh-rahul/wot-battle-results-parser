@@ -14,12 +14,12 @@ pub struct VehicleAdded {
 
 impl VehicleAdded {
     pub fn parse_from(
-        gen_info: EntMethodGeneralInfo, arena_data: &[u8],
+        gen_info: EntMethodGeneralInfo, arena_data: &[u8], context: &Context,
     ) -> Result<VehicleAdded, PacketError> {
         let value = decompress_vec(arena_data).and_then(|it| make_pickle_val(&it))?;
 
         Ok(VehicleAdded {
-            data: parse_vehicle_data(value.list()?)?,
+            data: parse_vehicle_data(value.list()?, context.version)?,
         })
     }
 }
@@ -39,9 +39,11 @@ pub struct VehicleData {
     pub pre_battle_id:         i64,
 }
 
-pub(crate) fn parse_vehicle_data(vehicle_data: Vec<PickleVal>) -> Result<VehicleData, PacketError> {
+pub(crate) fn parse_vehicle_data(
+    vehicle_data: Vec<PickleVal>, version: [u16; 4],
+) -> Result<VehicleData, PacketError> {
     let vehicle_compact_descr = if let Some(PickleVal::Bytes(compact_descr)) = vehicle_data.get(1) {
-        Some(parse_compact_descr(compact_descr.clone())?)
+        Some(parse_compact_descr(compact_descr.clone(), version)?)
     } else {
         None
     };

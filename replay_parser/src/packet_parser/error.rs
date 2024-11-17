@@ -45,6 +45,12 @@ pub enum PacketError {
         root_cause:  String,
     },
 
+    #[snafu(display("entity_type={entity_type}, root_cause={root_cause}"))]
+    CreateEntityParseError {
+        entity_type: EntityType,
+        root_cause:  String,
+    },
+
     #[snafu(display("Expected variant: {err}"))]
     WrongEnumVariant { err: String },
 

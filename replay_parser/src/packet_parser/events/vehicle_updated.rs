@@ -8,10 +8,10 @@ pub struct VehicleUpdated(VehicleData);
 
 impl VehicleUpdated {
     pub fn parse_from(
-        _gen_info: EntMethodGeneralInfo, arena_data: &[u8],
+        _gen_info: EntMethodGeneralInfo, arena_data: &[u8], context: &Context,
     ) -> Result<VehicleUpdated, PacketError> {
         let value = make_pickle_val(&decompress_vec(arena_data)?)?.list()?;
 
-        Ok(VehicleUpdated(parse_vehicle_data(value)?))
+        Ok(VehicleUpdated(parse_vehicle_data(value, context.version)?))
     }
 }
