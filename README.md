@@ -26,7 +26,7 @@ based on the replay version.
 
 For example, the `Position` information of each tank have barely changed over
 the years and therefore will probably work with all replays from `0.9.13` to today whereas something like `OnStaticCollision` (a tank colliding with a fence for ex.) has changed quite frequently and require more inspection. While this is not easy to do,
-the great thing is that there is a mechanism in place (see [here](https://github.com/dacite/wot-battle-results-parser/blob/main/replay_parser/src/packet_parser/events/entity_method/vehicle_methods.rs)) that let's us quickly make the necessary changes to support more versions.
+the great thing is that there is a mechanism in place (see [here](https://github.com/rajesh-rahul/wot-battle-results-parser/blob/main/replay_parser/src/packet_parser/events/entity_method/vehicle_methods.rs)) that let's us quickly make the necessary changes to support more versions.
 
 
 
@@ -71,7 +71,7 @@ pub fn main() {
 The binary section of the replay can be separated into "packets". Each packet has some metadata information
 and then the payload. This is useful if you are developing another projects that needs the packet abstraction.
 
-I used this to create https://dacite.github.io/wot-packet-analyzer. This is a GUI for analyzing packets and finding 
+I used this to create https://rajesh-rahul.github.io/wot-packet-analyzer. This is a GUI for analyzing packets and finding 
 out what they mean. Useful as a development tool. 
 
 ```rust
@@ -131,7 +131,7 @@ pub fn main() {
 
 See the docs.rs link for more thorough documentation: https://docs.rs/wot_replay_parser/latest/wot_replay_parser
 ## Projects that use this library:
-- Wot Packet Analyzer: https://dacite.github.io/wot-packet-analyzer
+- Wot Packet Analyzer: https://rajesh-rahul.github.io/wot-packet-analyzer
    - An analyzer for packets in a `.wotreplay` files. Useful for development
    - Uses `wot_replay_parser` library
    
